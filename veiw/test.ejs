@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title><%= test.title %></title>
+  <style>
+    :root {
+      --bg: #f6f2ea;
+      --ink: #1d1b16;
+      --muted: #6b6358;
+      --card: #fff8ee;
+      --accent: #ff8f2f;
+      --accent-2: #2f6cff;
+      --shadow: rgba(20, 18, 14, 0.12);
+      --line: rgba(29, 27, 22, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 600px at 80% -10%, #ffe0c2 0%, transparent 60%),
+        radial-gradient(900px 500px at 10% 10%, #d7e4ff 0%, transparent 55%),
+        var(--bg);
+      min-height: 100vh;
+      padding: 32px 20px;
+    }
+
+    .wrap {
+      width: min(980px, 100%);
+      margin: 0 auto;
+      background: var(--card);
+      border-radius: 24px;
+      padding: 40px 36px;
+      box-shadow: 0 20px 60px var(--shadow);
+      border: 1px solid var(--line);
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+    }
+
+    .brand-badge {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--accent), #ffb457);
+      display: grid;
+      place-items: center;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    h1 {
+      font-size: clamp(26px, 3.6vw, 36px);
+      margin: 0 0 8px;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .intro {
+      background: #fff;
+      border-radius: 16px;
+      padding: 18px 20px;
+      border: 1px solid var(--line);
+      margin: 18px 0 28px;
+    }
+
+    form {
+      display: grid;
+      gap: 20px;
+    }
+
+    .question {
+      background: #fff;
+      border-radius: 18px;
+      padding: 20px;
+      border: 1px solid var(--line);
+      box-shadow: 0 10px 20px rgba(20, 18, 14, 0.06);
+    }
+
+    .question h2 {
+      font-size: 18px;
+      margin: 0 0 14px;
+    }
+
+    .options {
+      display: grid;
+      gap: 10px;
+    }
+
+    label.option {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      padding: 10px 12px;
+      border-radius: 12px;
+      border: 1px solid transparent;
+      background: #fdf7ef;
+      cursor: pointer;
+      transition: border-color 160ms ease, transform 160ms ease;
+    }
+
+    label.option:hover {
+      border-color: rgba(29, 27, 22, 0.2);
+      transform: translateY(-1px);
+    }
+
+    input[type="radio"] {
+      accent-color: var(--accent-2);
+    }
+
+    .actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 12px;
+      margin-top: 8px;
+    }
+
+    button {
+      background: linear-gradient(135deg, var(--accent-2), #6aa0ff);
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 12px;
+      font-size: 15px;
+      cursor: pointer;
+      box-shadow: 0 12px 24px rgba(47, 108, 255, 0.25);
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="brand">
+        <div class="brand-badge">BG</div>
+        <div>BranchGuide</div>
+      </div>
+      <div>Test</div>
+    </header>
+
+    <h1>major</h1>
+    <div class="intro">
+      <p>this is a test for help you to chose best major in computer science</p>
+    </div>
+
+    <form method="post" action="/test">
+      <% test.forEach(function(q, idx) { %>
+        <section class="question">
+          <h2><%= idx + 1 %>. <%= q.text %></h2>
+          <input type="hidden" name="answers[<%= idx %>][q]" value="<%= q.id %>" />
+          <div class="options">
+            <% q.options.forEach(function(opt) { %>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="answers[<%= idx %>][e]"
+                  value='<%= JSON.stringify(opt.e) %>'
+                  required
+                />
+                <span><%= opt.q %></span>
+              </label>
+            <% }); %>
+          </div>
+        </section>
+      <% }); %>
+      <div class="actions">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>

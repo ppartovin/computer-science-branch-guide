@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Welcome</title>
+  <style>
+    :root {
+      --bg: #f6f2ea;
+      --ink: #1d1b16;
+      --muted: #6b6358;
+      --card: #fff8ee;
+      --accent: #ff8f2f;
+      --accent-2: #2f6cff;
+      --shadow: rgba(20, 18, 14, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 600px at 80% -10%, #ffe0c2 0%, transparent 60%),
+        radial-gradient(900px 500px at 10% 10%, #d7e4ff 0%, transparent 55%),
+        var(--bg);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 20px;
+    }
+
+    .wrap {
+      width: min(920px, 100%);
+      background: var(--card);
+      border-radius: 24px;
+      padding: 40px 36px;
+      box-shadow: 0 20px 60px var(--shadow);
+      border: 1px solid rgba(29, 27, 22, 0.08);
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+    }
+
+    .brand-badge {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--accent), #ffb457);
+      display: grid;
+      place-items: center;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    h1 {
+      font-size: clamp(28px, 4vw, 38px);
+      margin: 12px 0 8px;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+      margin-top: 28px;
+    }
+
+    .card {
+      text-decoration: none;
+      color: inherit;
+      background: #fff;
+      border-radius: 18px;
+      padding: 22px 20px;
+      border: 1px solid rgba(29, 27, 22, 0.08);
+      box-shadow: 0 12px 28px rgba(20, 18, 14, 0.08);
+      transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+      display: grid;
+      gap: 10px;
+    }
+
+    .card:hover,
+    .card:focus-visible {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 40px rgba(20, 18, 14, 0.14);
+      border-color: rgba(29, 27, 22, 0.18);
+    }
+
+    .card .tag {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--muted);
+    }
+
+    .card h2 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .card p {
+      font-size: 14px;
+    }
+
+    .card.action-test {
+      border-top: 4px solid var(--accent);
+    }
+
+    .card.action-majors {
+      border-top: 4px solid var(--accent-2);
+    }
+
+    .footer {
+      margin-top: 28px;
+      font-size: 13px;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="brand">
+        <div class="brand-badge">BG</div>
+        <div>BranchGuide</div>
+      </div>
+    </header>
+
+    <h1>Welcome</h1>
+    <p>Would you like to take a test or explore the available majors?</p>
+
+    <section class="cards">
+      <a class="card action-test" href="/test">
+        <span class="tag">Option 1</span>
+        <h2>Take a Test</h2>
+        <p>Answer a few questions and get a tailored suggestion.</p>
+      </a>
+      <a class="card action-majors" href="/majors">
+        <span class="tag">Option 2</span>
+        <h2>See Majors</h2>
+        <p>Browse the list of majors and learn more about each.</p>
+      </a>
+    </section>
+  </main>
+</body>
+</html>

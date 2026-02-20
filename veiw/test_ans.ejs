@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Test Submitted</title>
+  <style>
+    :root {
+      --bg: #f6f2ea;
+      --ink: #1d1b16;
+      --muted: #6b6358;
+      --card: #fff8ee;
+      --accent: #ff8f2f;
+      --accent-2: #2f6cff;
+      --shadow: rgba(20, 18, 14, 0.12);
+      --line: rgba(29, 27, 22, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 600px at 80% -10%, #ffe0c2 0%, transparent 60%),
+        radial-gradient(900px 500px at 10% 10%, #d7e4ff 0%, transparent 55%),
+        var(--bg);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 20px;
+    }
+
+    .wrap {
+      width: min(820px, 100%);
+      background: var(--card);
+      border-radius: 24px;
+      padding: 40px 36px;
+      box-shadow: 0 20px 60px var(--shadow);
+      border: 1px solid var(--line);
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+    }
+
+    .brand-badge {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--accent), #ffb457);
+      display: grid;
+      place-items: center;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    h1 {
+      font-size: clamp(26px, 3.6vw, 36px);
+      margin: 0 0 10px;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    .note {
+      background: #fff;
+      border-radius: 16px;
+      padding: 18px 20px;
+      border: 1px solid var(--line);
+      display: grid;
+      gap: 8px;
+      margin: 18px 0 24px;
+    }
+
+    .email-pill {
+      font-weight: 700;
+      color: var(--ink);
+      background: rgba(47, 108, 255, 0.1);
+      padding: 2px 8px;
+      border-radius: 10px;
+      display: inline-flex;
+      word-break: break-all;
+    }
+
+    .section-head {
+      display: grid;
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+
+    .section-head h2 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .progress-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .progress-item {
+      background: #fff;
+      border-radius: 16px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      box-shadow: 0 10px 20px rgba(20, 18, 14, 0.06);
+      display: grid;
+      gap: 10px;
+    }
+
+    .progress-label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-weight: 600;
+    }
+
+    .progress-value {
+      color: var(--muted);
+      font-size: 14px;
+      white-space: nowrap;
+    }
+
+    .progress-track {
+      height: 10px;
+      border-radius: 999px;
+      background: rgba(47, 108, 255, 0.12);
+      overflow: hidden;
+    }
+
+    .progress-bar {
+      height: 100%;
+      border-radius: 999px;
+      background: linear-gradient(135deg, var(--accent-2), #6aa0ff);
+      width: 0;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 18px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      box-shadow: 0 10px 20px rgba(20, 18, 14, 0.06);
+      gap: 8px;
+    }
+
+    .card h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .tag {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    a.button {
+      text-decoration: none;
+      color: #fff;
+      background: linear-gradient(135deg, var(--accent-2), #6aa0ff);
+      padding: 12px 20px;
+      border-radius: 12px;
+      font-size: 15px;
+      box-shadow: 0 12px 24px rgba(47, 108, 255, 0.25);
+      display: inline-block;
+      margin-top:16px;
+    }
+  </style>
+  <script>
+    window.addEventListener("load", () => {
+      const el = document.getElementById("url_shower");
+      el.innerText = window.location.href;
+      el.addEventListener("click", () => {
+        navigator.clipboard.writeText(window.location.href).catch(() => {});
+      });
+    });
+  </script>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="brand">
+        <div class="brand-badge">BG</div>
+        <div>BranchGuide</div>
+      </div>
+      <div>Result</div>
+    </header>
+
+    <h1>Test Submitted</h1>
+    <section class="note">
+      <span class="tag">Test Result</span>
+      <p>you can review your results in <span class="email-pill" id="url_shower"></span></p>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Test Results</h2>
+        <p>Based on your answers, the fit for each area is as follows.</p>
+      </div>
+      <div class="progress-list">
+        <% progressItems.forEach(function(item) { %>
+          <div class="progress-item">
+            <div class="progress-label">
+              <span><%= item.label %></span>
+              <span class="progress-value"><%= item.value %>%</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-bar" style="width: <%= item.value %>%"></div>
+            </div>
+          </div>
+        <% }); %>
+      </div>
+    </section>
+
+    <section style="margin-top: 28px;">
+      <div class="section-head">
+        <h2>Suggested Majors</h2>
+        <p>These majors could be a strong path for your studies.</p>
+      </div>
+      <div class="cards">
+        <% suggestedMajors.forEach(function(major) { %>
+          <article class="card" onclick='window.location.href = "/majors?place=" + encodeURIComponent(<%- JSON.stringify(major.title) %>);'>
+            <span class="tag">Suggested</span>
+            <h3 style="margin-top: 20px;margin-bottom: 20px;"><%= major.title %></h3>
+            <p><%= major.description %></p>
+          </article>
+        <% }); %>
+      </div>
+    </section>
+
+    <div class="actions">
+      <a class="button" href="/">Back to Home</a>
+    </div>
+  </main>
+</body>
+</html>

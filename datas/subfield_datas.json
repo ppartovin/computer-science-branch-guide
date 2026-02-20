@@ -1,0 +1,1235 @@
+[
+	{
+		"title": "Computer Science",
+		"introduction": "Computer Science is the foundational discipline that explores how computation works, how information is processed, and how intelligent systems can be built. It covers a wide range of topics including algorithms, programming, data structures, operating systems, artificial intelligence, networks, and computer architecture. The field provides the theoretical and practical foundations that power modern technology—from smartphones and cloud platforms to robotics and machine learning.\n\nThis field suits individuals who enjoy problem‑solving, logical thinking, and understanding how complex systems operate. People who are analytical, curious, and comfortable with mathematics and programming tend to excel in computer science. It also appeals to those who enjoy building things, experimenting with new technologies, and tackling abstract challenges.\n\nIn Iran, computer science is one of the most popular and employable fields, with opportunities in software companies, AI startups, fintech, telecommunications, and research institutions. Internationally, it is one of the highest‑demand disciplines, offering careers in global tech companies, research labs, cybersecurity, data science, and more. Roles include software engineer, data scientist, AI researcher, systems engineer, and academic researcher.\n\nStudying computer science typically involves learning programming, algorithms, discrete mathematics, operating systems, databases, and advanced topics like AI or distributed systems. Hands‑on projects, internships, and continuous learning are essential for success in this rapidly evolving field.",
+		"shortIntroduction": "Computer Science studies computation, algorithms, and the principles behind software, hardware, and intelligent systems.",
+		"subfields": [
+			"Artificial Intelligence",
+			"Data Science",
+			"Software Engineering",
+			"Networking & Security",
+			"Systems & Hardware",
+			"Robotics",
+			"Quantum Computing",
+			"Computer Graphics",
+			"Game Development"
+		],
+		"way2place": [
+			"Computer Science"
+		]
+	},
+	{
+		"title": "Artificial Intelligence",
+		"introduction": "Artificial Intelligence (AI) is a field focused on creating systems capable of performing tasks that typically require human intelligence, such as learning, reasoning, perception, and decision‑making. It combines computer science, mathematics, and cognitive science to build models that can analyze data, recognize patterns, and make predictions or autonomous decisions. As AI continues to evolve, it plays an increasingly central role in industries ranging from healthcare and finance to transportation and entertainment.\n\nThis field is well‑suited for individuals who enjoy analytical thinking, problem‑solving, and working with abstract concepts. People who are curious, patient, and comfortable with continuous learning tend to thrive in AI, as the field evolves rapidly and requires staying updated with new algorithms, tools, and research. A strong interest in mathematics, programming, and data‑driven reasoning is also essential.\n\nThe job market for AI is strong both in Iran and internationally. In Iran, AI specialists are increasingly in demand in sectors like fintech, telecommunications, e‑commerce, and automation. Globally, the demand is even higher, with opportunities in major tech companies, research institutions, robotics firms, and startups. Roles such as machine learning engineer, data scientist, AI researcher, and AI product developer are among the most sought‑after positions worldwide.\n\nTo pursue AI academically, students typically begin with a bachelor's degree in computer science, software engineering, or a related field, followed by specialized coursework or a master's degree in artificial intelligence, machine learning, or data science. Strong foundations in mathematics—especially linear algebra, probability, and calculus—along with programming experience in languages like Python are crucial. Many students also enhance their skills through online courses, research projects, and participation in AI competitions.",
+		"shortIntroduction": "Artificial Intelligence is the field of building systems that simulate human intelligence, including learning, reasoning, perception, and decision-making.",
+		"subfields": [
+			"Machine Learning",
+			"Computer Vision",
+			"Natural Language Processing",
+			"Robotics AI"
+		],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence"
+		]
+	},
+	{
+		"title": "Machine Learning",
+		"introduction": "Machine Learning is a core branch of artificial intelligence focused on developing algorithms that enable computers to learn patterns from data and make predictions or decisions without being explicitly programmed. It blends mathematics, statistics, and computer science to create models that improve over time as they are exposed to more information.\n\nThis field is ideal for individuals who enjoy analytical thinking, problem‑solving, and working with data. People who are patient, curious, and comfortable with experimentation tend to excel in machine learning, as building effective models often requires iterative testing and refinement. A strong foundation in mathematics—especially probability, linear algebra, and calculus—is highly beneficial.\n\nThe job market for machine learning specialists is strong both in Iran and internationally. In Iran, opportunities exist in fintech, telecommunications, e‑commerce, and automation industries. Globally, demand is even higher, with roles available in major tech companies, research labs, healthcare, finance, and robotics. Positions such as machine learning engineer, data scientist, and ML researcher are among the most sought‑after roles worldwide.\n\nTo study machine learning, students typically begin with a bachelor's degree in computer science, software engineering, or a related field, followed by specialized courses or a master's degree in machine learning or data science. Practical experience with programming languages like Python and familiarity with ML frameworks such as TensorFlow or PyTorch are essential for success.",
+		"shortIntroduction": "Machine Learning enables systems to learn from data and improve performance without explicit programming.",
+		"subfields": [
+			"Supervised Learning",
+			"Unsupervised Learning",
+			"Reinforcement Learning"
+		],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Machine Learning"
+		]
+	},
+	{
+		"title": "Supervised Learning",
+		"introduction": "Supervised Learning is a major subfield of machine learning in which models are trained using labeled data, meaning each input is paired with a known output. The goal is to learn a mapping that allows the model to predict correct outputs for new, unseen inputs. This approach is widely used in applications such as spam detection, medical diagnosis, and image classification.\n\nThis field suits individuals who enjoy structured problem‑solving and working with clearly defined objectives. People who are detail‑oriented, analytical, and comfortable with data preprocessing and evaluation techniques tend to excel in supervised learning. A strong interest in mathematics and programming is also important.\n\nThe job market for supervised learning skills is strong in Iran and abroad. In Iran, industries such as banking, cybersecurity, and e‑commerce rely heavily on supervised models for prediction and classification tasks. Internationally, supervised learning is foundational in nearly every AI‑driven company, from tech giants to startups, creating opportunities for roles like ML engineer, data scientist, and AI analyst.\n\nStudying supervised learning typically begins with foundational coursework in machine learning, statistics, and programming. Students often learn through university programs in computer science or AI, as well as through online courses and hands‑on projects. Experience with datasets, model evaluation metrics, and tools like scikit‑learn is essential for mastering this area.",
+		"shortIntroduction": "Supervised Learning trains models using labeled data to predict outputs for unseen inputs.",
+		"subfields": [
+			"Regression",
+			"Classification",
+			"Neural Networks"
+		],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Machine Learning",
+			"Supervised Learning"
+		]
+	},
+	{
+		"title": "Regression",
+		"introduction": "Regression is a supervised learning technique used to predict continuous numerical values based on input features. It helps identify relationships between variables and is widely applied in fields such as finance, economics, engineering, and environmental science. Common examples include predicting house prices, stock trends, or energy consumption.\n\nThis field is ideal for individuals who enjoy working with numbers, analyzing patterns, and interpreting data. People who are detail‑oriented, logical, and comfortable with mathematical modeling tend to excel in regression‑based tasks. A strong understanding of statistics and linear algebra is particularly helpful.\n\nIn Iran, regression models are commonly used in banking, insurance, manufacturing, and data‑driven businesses. Internationally, regression remains a fundamental tool in data science and analytics roles across nearly every industry. Professionals skilled in regression can pursue careers as data analysts, machine learning engineers, or business intelligence specialists.\n\nTo study regression, students typically begin with courses in statistics, mathematics, and machine learning. University programs in computer science, industrial engineering, or data science often cover regression techniques. Practical experience with tools like Python, R, and statistical libraries is essential for applying regression effectively.",
+		"shortIntroduction": "Regression predicts continuous numerical values based on input data.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Machine Learning",
+			"Supervised Learning",
+			"Regression"
+		]
+	},
+	{
+		"title": "Classification",
+		"introduction": "Classification is a supervised learning method used to assign inputs into predefined categories based on learned patterns. It is widely used in applications such as image recognition, sentiment analysis, fraud detection, and medical diagnosis. Classification models learn from labeled examples and aim to generalize well to new, unseen data.\n\nThis field suits individuals who enjoy logical reasoning, pattern recognition, and solving structured problems. People who are analytical, curious, and comfortable working with datasets and evaluation metrics tend to excel in classification tasks. A strong interest in programming and mathematics is also beneficial.\n\nThe job market for classification skills is strong in Iran and globally. In Iran, industries such as banking, cybersecurity, and healthcare rely heavily on classification models for risk assessment and decision‑making. Internationally, classification is a core component of many AI systems, creating opportunities in tech companies, research labs, and data‑driven organizations.\n\nStudying classification typically involves coursework in machine learning, statistics, and programming. Students often learn through university programs or online courses, supported by hands‑on projects. Familiarity with tools like scikit‑learn, TensorFlow, or PyTorch is essential for building effective classification models.",
+		"shortIntroduction": "Classification assigns inputs into predefined categories based on learned patterns.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Machine Learning",
+			"Supervised Learning",
+			"Classification"
+		]
+	},
+	{
+		"title": "Neural Networks",
+		"introduction": "Neural Networks are computational models inspired by the structure and functioning of the human brain. They consist of interconnected layers of nodes that learn complex patterns from data, enabling breakthroughs in fields such as image recognition, natural language processing, and speech synthesis. Neural networks form the foundation of modern deep learning.\n\nThis field is ideal for individuals who enjoy tackling complex problems, experimenting with algorithms, and exploring abstract concepts. People who are patient, curious, and comfortable with mathematics—especially linear algebra and calculus—tend to excel in neural network development. Strong programming skills are also essential.\n\nThe job market for neural network expertise is rapidly growing in Iran and internationally. In Iran, industries such as healthcare, fintech, and automation increasingly rely on deep learning models. Globally, neural network specialists are in high demand across major tech companies, research institutions, robotics firms, and AI‑driven startups. Roles such as deep learning engineer, AI researcher, and computer vision specialist are particularly sought after.\n\nTo study neural networks, students typically begin with foundational courses in machine learning, mathematics, and programming. Advanced study often involves deep learning‑focused university courses, online programs, and hands‑on projects. Experience with frameworks like TensorFlow and PyTorch is essential for building and training neural network models.",
+		"shortIntroduction": "Neural Networks are layered models inspired by the brain, capable of learning complex patterns.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Machine Learning",
+			"Supervised Learning",
+			"Neural Networks"
+		]
+	},
+	{
+		"title": "Unsupervised Learning",
+		"introduction": "Unsupervised Learning is a branch of machine learning focused on discovering hidden structures and patterns within unlabeled data. Instead of relying on predefined outputs, models attempt to understand the underlying organization of the data, making it useful for exploration, pattern discovery, and data preprocessing.\n\nThis field is ideal for individuals who enjoy analytical thinking, creativity, and working with ambiguity. People who are curious, patient, and comfortable experimenting with different algorithms tend to excel in unsupervised learning. A strong foundation in mathematics, especially statistics and linear algebra, is helpful.\n\nIn Iran, unsupervised learning is increasingly used in sectors such as marketing, telecommunications, and cybersecurity for tasks like customer segmentation and anomaly detection. Internationally, it plays a major role in big data analytics, bioinformatics, recommendation systems, and research, creating opportunities in tech companies, research labs, and data‑driven industries.\n\nStudying unsupervised learning typically involves coursework in machine learning, statistics, and data analysis. Students often learn through university programs or online courses, supported by hands‑on projects using tools like Python, scikit‑learn, and clustering or dimensionality reduction techniques.",
+		"shortIntroduction": "Unsupervised Learning discovers hidden patterns in unlabeled data.",
+		"subfields": [
+			"Clustering",
+			"Dimensionality Reduction"
+		],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Machine Learning",
+			"Unsupervised Learning"
+		]
+	},
+	{
+		"title": "Clustering",
+		"introduction": "Clustering is an unsupervised learning technique used to group similar data points into meaningful clusters based on shared characteristics. It helps reveal natural structures within data and is widely used in applications such as customer segmentation, anomaly detection, and image grouping.\n\nThis field suits individuals who enjoy pattern recognition, exploratory analysis, and working with complex datasets. People who are analytical, curious, and comfortable experimenting with different algorithms tend to excel in clustering tasks.\n\nIn Iran, clustering is commonly used in marketing analytics, banking, and telecommunications. Internationally, it is essential in fields like bioinformatics, e‑commerce, and machine learning research. Professionals skilled in clustering can pursue roles in data science, analytics, and AI development.\n\nStudying clustering typically involves learning about unsupervised learning, statistics, and distance metrics. Students often practice using algorithms such as K‑Means, DBSCAN, and hierarchical clustering through university courses or online programs.",
+		"shortIntroduction": "Clustering groups similar data points into meaningful clusters.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Machine Learning",
+			"Unsupervised Learning",
+			"Clustering"
+		]
+	},
+	{
+		"title": "Dimensionality Reduction",
+		"introduction": "Dimensionality Reduction is an unsupervised learning technique used to simplify high‑dimensional datasets while preserving their most important information. It helps improve model performance, reduce noise, and make data easier to visualize and analyze. Common methods include PCA, t‑SNE, and autoencoders.\n\nThis field is ideal for individuals who enjoy mathematical reasoning, data visualization, and working with complex datasets. People who are analytical, detail‑oriented, and comfortable with linear algebra tend to excel in dimensionality reduction.\n\nIn Iran, dimensionality reduction is used in areas such as finance, healthcare analytics, and machine learning research. Internationally, it is widely applied in big data processing, bioinformatics, computer vision, and AI development. Skills in this area open opportunities in data science, research, and advanced analytics roles.\n\nStudying dimensionality reduction typically involves coursework in machine learning, statistics, and linear algebra. Students often gain experience through hands‑on projects using tools like Python, scikit‑learn, and deep learning frameworks.",
+		"shortIntroduction": "Dimensionality Reduction simplifies datasets while retaining important information.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Machine Learning",
+			"Unsupervised Learning",
+			"Dimensionality Reduction"
+		]
+	},
+	{
+		"title": "Reinforcement Learning",
+		"introduction": "Reinforcement Learning (RL) is a field of machine learning in which agents learn to make decisions by interacting with an environment and receiving rewards or penalties. RL is used to solve sequential decision‑making problems and has enabled major advancements in robotics, game‑playing AI, autonomous systems, and resource optimization.\n\nThis field suits individuals who enjoy problem‑solving, experimentation, and working with dynamic systems. People who are patient, curious, and comfortable with mathematical modeling—especially probability and calculus—tend to excel in reinforcement learning. Strong programming skills are also essential.\n\nIn Iran, RL is emerging in fields such as robotics, industrial automation, and optimization research. Internationally, it is widely used in autonomous vehicles, finance, gaming, and advanced AI research, creating opportunities in tech companies, robotics firms, and research institutions.\n\nStudying reinforcement learning typically involves advanced coursework in machine learning, algorithms, and mathematics. Students often learn through university programs or specialized online courses, supported by hands‑on projects using frameworks like Python, OpenAI Gym, and deep learning libraries.",
+		"shortIntroduction": "Reinforcement Learning trains agents to make decisions through reward-based interaction.",
+		"subfields": [
+			"Q-Learning",
+			"Deep Reinforcement Learning"
+		],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Machine Learning",
+			"Reinforcement Learning"
+		]
+	},
+	{
+		"title": "Q-Learning",
+		"introduction": "Q‑Learning is a reinforcement learning algorithm that enables an agent to learn optimal actions by updating a value function known as the Q‑table. It does not require a model of the environment, making it a powerful method for solving decision‑making problems in discrete state and action spaces.\n\nThis field is ideal for individuals who enjoy algorithmic thinking, experimentation, and understanding how systems learn through trial and error. People who are analytical, patient, and comfortable with mathematical reasoning tend to excel in Q‑Learning.\n\nIn Iran, Q‑Learning is used in academic research, robotics experiments, and optimization problems. Internationally, it is applied in game AI, automation, and control systems, creating opportunities in research labs, robotics companies, and AI development teams.\n\nStudying Q‑Learning typically involves learning the fundamentals of reinforcement learning, Markov decision processes, and dynamic programming. Students often practice through simulations and coding projects using Python and RL libraries.",
+		"shortIntroduction": "Q-Learning learns optimal actions using reward-based updates.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Machine Learning",
+			"Reinforcement Learning",
+			"Q-Learning"
+		]
+	},
+	{
+		"title": "Deep Reinforcement Learning",
+		"introduction": "Deep Reinforcement Learning (DRL) combines reinforcement learning with deep neural networks to solve complex decision‑making problems that involve large or continuous state spaces. DRL has enabled breakthroughs in robotics, autonomous driving, natural language processing, and advanced game‑playing systems such as AlphaGo.\n\nThis field suits individuals who enjoy working at the intersection of deep learning and decision‑making algorithms. People who are curious, persistent, and comfortable with mathematics, programming, and experimentation tend to excel in DRL.\n\nIn Iran, DRL is growing in research communities and robotics projects. Internationally, it is one of the most in‑demand AI specialties, with applications in tech companies, autonomous systems, finance, and scientific research. Roles such as deep learning engineer, RL researcher, and robotics AI developer are common career paths.\n\nStudying DRL typically requires a strong foundation in machine learning, neural networks, and reinforcement learning. Students often learn through advanced university courses, online programs, and hands‑on projects using frameworks like PyTorch, TensorFlow, and RL environments such as OpenAI Gym or MuJoCo.",
+		"shortIntroduction": "Deep Reinforcement Learning integrates deep neural networks with reinforcement learning.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Machine Learning",
+			"Reinforcement Learning",
+			"Deep Reinforcement Learning"
+		]
+	},
+	{
+		"title": "Computer Vision",
+		"introduction": "Computer Vision is a field of artificial intelligence that enables machines to interpret and understand visual information from the world. It involves developing algorithms that can analyze images and videos, recognize patterns, and make decisions based on visual input. This technology powers applications such as facial recognition, autonomous vehicles, medical imaging, and industrial automation.\n\nThis field is ideal for individuals who enjoy working with images, solving complex problems, and exploring how machines can mimic human perception. People who are analytical, detail‑oriented, and comfortable with mathematics—especially linear algebra and calculus—tend to excel in computer vision. Strong programming skills and curiosity about visual data are also important.\n\nIn Iran, computer vision is increasingly used in healthcare, security systems, robotics, and smart city projects. Internationally, it is one of the fastest‑growing AI fields, with opportunities in tech companies, automotive industries, research labs, and startups. Careers include computer vision engineer, AI researcher, and imaging specialist.\n\nStudying computer vision typically involves coursework in machine learning, image processing, and deep learning. Students often gain experience through university programs, online courses, and hands‑on projects using frameworks like OpenCV, TensorFlow, and PyTorch.",
+		"shortIntroduction": "Computer Vision allows machines to analyze and interpret visual data.",
+		"subfields": [
+			"Image Recognition",
+			"Object Detection",
+			"Image Segmentation",
+			"Video Analysis"
+		],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Computer Vision"
+		]
+	},
+	{
+		"title": "Image Recognition",
+		"introduction": "Image Recognition is a core task in computer vision that focuses on identifying and classifying objects within images. It enables machines to understand visual content and is widely used in applications such as facial recognition, medical diagnosis, quality control, and content moderation.\n\nThis field suits individuals who enjoy pattern recognition, problem‑solving, and working with large datasets. People who are analytical, curious, and comfortable with deep learning techniques tend to excel in image recognition. A strong interest in mathematics and programming is also beneficial.\n\nIn Iran, image recognition is used in security systems, healthcare imaging, and industrial automation. Internationally, it is essential in sectors like autonomous vehicles, e‑commerce, and social media platforms. Professionals skilled in image recognition can pursue roles as computer vision engineers, AI developers, or machine learning specialists.\n\nStudying image recognition typically involves learning about neural networks, convolutional architectures, and image processing techniques. Students often practice through hands‑on projects using tools like TensorFlow, PyTorch, and OpenCV.",
+		"shortIntroduction": "Image Recognition classifies objects within images.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Computer Vision",
+			"Image Recognition"
+		]
+	},
+	{
+		"title": "Object Detection",
+		"introduction": "Object Detection is a computer vision technique that identifies and locates objects within images or videos. Unlike image recognition, which only classifies objects, object detection provides bounding boxes or masks that show where each object appears. It is widely used in autonomous driving, surveillance systems, robotics, and retail analytics.\n\nThis field is ideal for individuals who enjoy solving complex visual problems and working with advanced deep learning models. People who are detail‑oriented, analytical, and comfortable with experimentation tend to excel in object detection. Strong programming and mathematical skills are essential.\n\nIn Iran, object detection is applied in traffic monitoring, industrial automation, and smart security systems. Internationally, it is a key technology in autonomous vehicles, robotics, and AI‑powered analytics, creating opportunities in tech companies and research labs.\n\nStudying object detection typically involves learning about convolutional neural networks, feature extraction, and modern architectures such as YOLO, SSD, and Faster R‑CNN. Hands‑on experience with deep learning frameworks is crucial for mastering this field.",
+		"shortIntroduction": "Object Detection identifies and locates objects within images.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Computer Vision",
+			"Object Detection"
+		]
+	},
+	{
+		"title": "Image Segmentation",
+		"introduction": "Image Segmentation is a computer vision technique that divides an image into meaningful pixel‑level regions, allowing machines to understand objects and boundaries with high precision. It is essential in applications such as medical imaging, autonomous driving, agriculture, and satellite analysis.\n\nThis field suits individuals who enjoy detailed visual analysis, mathematical modeling, and working with complex datasets. People who are patient, analytical, and comfortable with deep learning architectures tend to excel in segmentation tasks.\n\nIn Iran, image segmentation is used in medical diagnostics, agricultural monitoring, and industrial inspection. Internationally, it plays a major role in healthcare, robotics, and geospatial analysis, offering career opportunities in research institutions and AI‑driven companies.\n\nStudying image segmentation typically involves learning about convolutional neural networks, encoder‑decoder architectures, and models like U‑Net, Mask R‑CNN, and DeepLab. Practical experience with deep learning frameworks is essential for success.",
+		"shortIntroduction": "Image Segmentation separates images into meaningful pixel-level regions.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Computer Vision",
+			"Image Segmentation"
+		]
+	},
+	{
+		"title": "Video Analysis",
+		"introduction": "Video Analysis is a branch of computer vision focused on understanding and interpreting visual information from video streams. It involves tasks such as activity recognition, motion tracking, event detection, and video segmentation. Video analysis powers applications like surveillance systems, autonomous vehicles, sports analytics, and smart city technologies.\n\nThis field is ideal for individuals who enjoy working with dynamic visual data, solving time‑based problems, and exploring advanced AI techniques. People who are analytical, curious, and comfortable with deep learning and signal processing tend to excel in video analysis.\n\nIn Iran, video analysis is used in security systems, traffic monitoring, and industrial automation. Internationally, it is a rapidly growing field with opportunities in tech companies, robotics, entertainment, and research labs. Careers include video analytics engineer, computer vision researcher, and AI developer.\n\nStudying video analysis typically involves learning about temporal modeling, recurrent neural networks, 3D convolutional networks, and motion analysis techniques. Hands‑on experience with deep learning frameworks and video datasets is essential for mastering this area.",
+		"shortIntroduction": "Image Segmentation separates images into meaningful pixel-level regions.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Computer Vision",
+			"Video Analysis"
+		]
+	},
+	{
+		"title": "Natural Language Processing",
+		"introduction": "Natural Language Processing (NLP) is a field of artificial intelligence that focuses on enabling machines to understand, interpret, and generate human language. It combines linguistics, computer science, and machine learning to build systems capable of analyzing text, speech, and conversational patterns. NLP powers many modern technologies, including search engines, virtual assistants, translation tools, and content moderation systems.\n\nThis field is ideal for individuals who enjoy working with language, solving analytical problems, and exploring how humans communicate. People who are detail‑oriented, curious, and comfortable with both linguistic concepts and programming tend to excel in NLP. A strong interest in machine learning, statistics, and text processing is also valuable.\n\nIn Iran, NLP is increasingly used in customer service automation, Persian language processing, sentiment analysis, and business intelligence. Internationally, NLP is one of the fastest‑growing AI fields, with opportunities in tech companies, research labs, healthcare, finance, and global communication platforms. Careers include NLP engineer, computational linguist, and AI researcher.\n\nStudying NLP typically involves coursework in machine learning, linguistics, text mining, and deep learning. Students often gain experience through university programs, online courses, and hands‑on projects using tools like Python, spaCy, NLTK, and transformer‑based models such as BERT or GPT.",
+		"shortIntroduction": "NLP allows machines to understand and generate human language.",
+		"subfields": [
+			"Text Classification",
+			"Sentiment Analysis",
+			"Machine Translation",
+			"Chatbots & Conversational AI"
+		],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Natural Language Processing"
+		]
+	},
+	{
+		"title": "Text Classification",
+		"introduction": "Text Classification is a core NLP task that involves automatically assigning predefined categories to written text. It enables machines to understand and organize large volumes of information, supporting applications such as spam detection, topic labeling, news categorization, and content moderation.\n\nThis field suits individuals who enjoy working with language data, identifying patterns, and building machine learning models. People who are analytical, detail‑oriented, and comfortable with statistical methods tend to excel in text classification. Strong programming and data preprocessing skills are also helpful.\n\nIn Iran, text classification is widely used in customer support systems, document management, and social media analysis. Internationally, it plays a major role in search engines, e‑commerce platforms, and AI‑driven content systems. Professionals skilled in text classification can pursue roles in NLP engineering, data science, and AI development.\n\nStudying text classification typically involves learning about feature extraction, machine learning algorithms, and deep learning architectures. Students often practice using tools like scikit‑learn, spaCy, and transformer models for classification tasks.",
+		"shortIntroduction": "Text Classification automatically assigns predefined categories to written text using machine learning models.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Natural Language Processing",
+			"Text Classification"
+		]
+	},
+	{
+		"title": "Sentiment Analysis",
+		"introduction": "Sentiment Analysis is an NLP technique used to determine the emotional tone or opinion expressed in text. It helps organizations understand customer feedback, monitor social media trends, and analyze public sentiment toward products, events, or policies. Sentiment analysis can classify text as positive, negative, neutral, or more nuanced emotional categories.\n\nThis field is ideal for individuals who enjoy interpreting language, analyzing human emotions, and working with real‑world text data. People who are curious, analytical, and comfortable with machine learning techniques tend to excel in sentiment analysis.\n\nIn Iran, sentiment analysis is used in marketing analytics, political research, and customer service platforms. Internationally, it is widely applied in social media monitoring, brand management, and financial forecasting. Careers include NLP analyst, data scientist, and AI product specialist.\n\nStudying sentiment analysis typically involves learning about text preprocessing, supervised learning, and deep learning models such as LSTMs and transformers. Hands‑on experience with Python libraries and sentiment datasets is essential for mastering this field.",
+		"shortIntroduction": "Sentiment Analysis determines the emotional tone or opinion expressed in text data.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Natural Language Processing",
+			"Sentiment Analysis"
+		]
+	},
+	{
+		"title": "Machine Translation",
+		"introduction": "Machine Translation is an NLP field focused on automatically converting text from one language to another using AI models. It enables global communication and supports applications such as multilingual chatbots, international business tools, and real‑time translation services. Modern translation systems rely heavily on deep learning and transformer architectures.\n\nThis field suits individuals who enjoy working with languages, understanding linguistic structures, and building complex AI models. People who are analytical, detail‑oriented, and comfortable with both linguistics and programming tend to excel in machine translation.\n\nIn Iran, machine translation is widely used in academic research, localization services, and Persian language technology development. Internationally, it is essential for global tech companies, translation platforms, and AI research labs. Careers include NLP engineer, computational linguist, and machine translation researcher.\n\nStudying machine translation typically involves coursework in linguistics, deep learning, and sequence‑to‑sequence modeling. Students often gain experience using transformer models such as BERT, GPT, and MarianMT, along with large multilingual datasets.",
+		"shortIntroduction": "Machine Translation automatically converts text from one language to another using AI models.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Natural Language Processing",
+			"Machine Translation"
+		]
+	},
+	{
+		"title": "Chatbots & Conversational AI",
+		"introduction": "Chatbots and Conversational AI focus on building systems that can engage in human‑like conversations through text or voice. These technologies power virtual assistants, customer service bots, and interactive applications that understand user intent and generate meaningful responses. Conversational AI combines NLP, machine learning, and dialogue management techniques.\n\nThis field is ideal for individuals who enjoy designing interactive systems, understanding human communication, and solving real‑world problems. People who are creative, analytical, and comfortable with both language and programming tend to excel in conversational AI.\n\nIn Iran, chatbots are increasingly used in banking, e‑commerce, and customer support automation. Internationally, conversational AI is a major focus for tech companies, healthcare platforms, and enterprise software providers. Careers include chatbot developer, conversational designer, and NLP engineer.\n\nStudying conversational AI typically involves learning about intent detection, dialogue systems, natural language understanding (NLU), and natural language generation (NLG). Students often practice using frameworks like Rasa, Dialogflow, and transformer‑based models to build conversational agents.",
+		"shortIntroduction": "Chatbots and Conversational AI enable machines to engage in human-like conversations through text or voice.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Natural Language Processing",
+			"Chatbots & Conversational AI"
+		]
+	},
+	{
+		"title": "Robotics AI",
+		"introduction": "Robotics AI is a field that integrates artificial intelligence into robotic systems to enable intelligent, adaptive, and autonomous behavior. It combines machine learning, computer vision, control systems, and mechanical engineering to create robots capable of perceiving their environment, making decisions, and performing complex tasks. Robotics AI powers applications such as industrial automation, autonomous vehicles, service robots, and medical robotics.\n\nThis field is ideal for individuals who enjoy hands‑on problem‑solving, interdisciplinary work, and building systems that interact with the physical world. People who are analytical, creative, and comfortable with mathematics, programming, and engineering concepts tend to excel in robotics AI.\n\nIn Iran, robotics AI is growing in manufacturing, agriculture automation, and academic research. Internationally, it is one of the most dynamic AI fields, with opportunities in tech companies, automotive industries, aerospace, healthcare, and robotics startups. Careers include robotics engineer, AI developer, automation specialist, and research scientist.\n\nStudying robotics AI typically involves coursework in machine learning, control theory, computer vision, and robotics engineering. Students often gain experience through university programs, robotics labs, and hands‑on projects using simulation tools and real robotic platforms.",
+		"shortIntroduction": "Robotics AI integrates artificial intelligence into robotic systems to enable intelligent and autonomous behavior.",
+		"subfields": [
+			"Robot Perception",
+			"Motion Planning",
+			"Autonomous Systems"
+		],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Robotics AI"
+		]
+	},
+	{
+		"title": "Robot Perception",
+		"introduction": "Robot Perception focuses on enabling robots to interpret and understand their environment using data from sensors such as cameras, LiDAR, radar, and tactile sensors. It allows robots to recognize objects, estimate depth, track motion, and build maps of their surroundings. Robot perception is essential for tasks such as navigation, manipulation, and autonomous decision‑making.\n\nThis field suits individuals who enjoy working with visual data, sensor technologies, and machine learning algorithms. People who are analytical, detail‑oriented, and comfortable with mathematics and programming tend to excel in robot perception.\n\nIn Iran, robot perception is used in research labs, industrial automation, and smart systems. Internationally, it plays a major role in autonomous vehicles, drones, service robots, and advanced manufacturing. Careers include perception engineer, computer vision specialist, and robotics researcher.\n\nStudying robot perception typically involves learning about computer vision, sensor fusion, SLAM, and deep learning. Students often practice using tools like ROS, OpenCV, and simulation environments to build perception pipelines.",
+		"shortIntroduction": "Robot Perception allows robots to interpret and understand their environment using sensor data.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Robotics AI",
+			"Robot Perception"
+		]
+	},
+	{
+		"title": "Motion Planning",
+		"introduction": "Motion Planning is a robotics field focused on calculating safe, efficient, and feasible movement paths for robots and autonomous systems. It ensures that robots can navigate their environment, avoid obstacles, and reach target positions while respecting physical and dynamic constraints. Motion planning is essential in applications such as autonomous driving, robotic arms, drones, and mobile robots.\n\nThis field is ideal for individuals who enjoy algorithmic thinking, geometry, and solving complex spatial problems. People who are analytical, patient, and comfortable with mathematics—especially optimization and kinematics—tend to excel in motion planning.\n\nIn Iran, motion planning is used in robotics research, industrial automation, and drone development. Internationally, it is a key component of autonomous vehicles, warehouse robots, and aerospace systems, offering career opportunities in tech companies, robotics firms, and research institutions.\n\nStudying motion planning typically involves coursework in algorithms, control theory, robotics, and optimization. Students often gain experience through hands‑on projects using tools like ROS, simulation environments, and planning algorithms such as RRT, A*, and trajectory optimization methods.",
+		"shortIntroduction": "Motion Planning calculates safe and efficient movement paths for robots and autonomous systems.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Robotics AI",
+			"Motion Planning"
+		]
+	},
+	{
+		"title": "Autonomous Systems",
+		"introduction": "Autonomous Systems are intelligent machines capable of operating independently by perceiving their environment, making decisions, and executing actions without human intervention. These systems combine robotics, AI, control theory, and sensor technologies to perform tasks such as navigation, manipulation, and real‑time decision‑making. Examples include self‑driving cars, drones, service robots, and smart industrial machines.\n\nThis field suits individuals who enjoy working with complex, dynamic systems and integrating multiple technologies. People who are analytical, innovative, and comfortable with programming, mathematics, and engineering concepts tend to excel in autonomous systems.\n\nIn Iran, autonomous systems are emerging in robotics research, agriculture automation, and drone technologies. Internationally, they are central to industries such as automotive, aerospace, logistics, and defense, creating opportunities for roles like autonomous systems engineer, robotics developer, and AI researcher.\n\nStudying autonomous systems typically involves learning about control theory, machine learning, perception, and motion planning. Students often gain experience through robotics labs, simulation platforms, and real‑world autonomous system projects.",
+		"shortIntroduction": "Autonomous Systems operate independently by perceiving their environment and making decisions without human intervention.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Artificial Intelligence",
+			"Robotics AI",
+			"Autonomous Systems"
+		]
+	},
+	{
+		"title": "Data Science",
+		"introduction": "Data Science is an interdisciplinary field focused on extracting meaningful insights, patterns, and knowledge from data using statistics, programming, and machine learning. It combines analytical thinking with computational tools to solve real-world problems across industries such as finance, healthcare, marketing, and technology. Data scientists work with structured and unstructured data to build predictive models, visualize trends, and support data-driven decision-making.\n\nThis field is ideal for individuals who enjoy problem-solving, analytical reasoning, and working with large datasets. People who are curious, detail-oriented, and comfortable with mathematics and programming tend to excel in data science. A passion for continuous learning is essential, as tools and techniques evolve rapidly.\n\nIn Iran, data science is increasingly in demand in sectors like banking, telecommunications, e-commerce, and business intelligence. Internationally, it is one of the fastest-growing tech fields, with opportunities in major companies, research labs, and startups. Careers include data scientist, machine learning engineer, business analyst, and data engineer.\n\nStudying data science typically involves coursework in statistics, programming, machine learning, and data visualization. Students often gain experience through university programs, online courses, and hands-on projects using tools like Python, SQL, R, and cloud platforms.",
+		"shortIntroduction": "Data Science is the interdisciplinary field of extracting insights and knowledge from data using statistics, programming, and machine learning.",
+		"subfields": [
+			"Data Analysis",
+			"Data Mining",
+			"Big Data",
+			"Applied Data Science"
+		],
+		"way2place": [
+			"Computer Science",
+			"Data Science"
+		]
+	},
+	{
+		"title": "Data Analysis",
+		"introduction": "Data Analysis focuses on examining, cleaning, and interpreting data to uncover meaningful insights and trends. It plays a crucial role in helping organizations make informed decisions by transforming raw data into actionable information. Data analysts use statistical techniques, visualization tools, and domain knowledge to understand patterns and communicate findings.\n\nThis field suits individuals who enjoy working with numbers, identifying trends, and solving practical problems. People who are detail-oriented, analytical, and comfortable with tools like spreadsheets, databases, and visualization software tend to excel in data analysis.\n\nIn Iran, data analysis is widely used in finance, marketing, healthcare, and government sectors. Internationally, it is a core function in nearly every industry, offering opportunities in tech companies, consulting firms, and research organizations. Careers include data analyst, business intelligence analyst, and reporting specialist.\n\nStudying data analysis typically involves learning statistics, data visualization, and programming basics. Students often practice using tools such as Excel, SQL, Python, and visualization platforms like Power BI or Tableau.",
+		"shortIntroduction": "Data Analysis focuses on examining and interpreting data to uncover meaningful insights and trends.",
+		"subfields": [
+			"Exploratory Data Analysis",
+			"Statistical Analysis"
+		],
+		"way2place": [
+			"Computer Science",
+			"Data Science",
+			"Data Analysis"
+		]
+	},
+	{
+		"title": "Exploratory Data Analysis",
+		"introduction": "Exploratory Data Analysis (EDA) is the process of examining datasets using visualization and summary statistics to understand their structure, patterns, and anomalies. It helps analysts and data scientists gain intuition about the data before applying advanced modeling techniques. EDA is essential for identifying trends, detecting outliers, and ensuring data quality.\n\nThis field is ideal for individuals who enjoy visual thinking, pattern recognition, and working with messy real-world data. People who are curious, analytical, and comfortable experimenting with different visualization techniques tend to excel in EDA.\n\nIn Iran, EDA is used in business intelligence, research, and data-driven decision-making. Internationally, it is a foundational skill in data science, analytics, and machine learning workflows. Professionals skilled in EDA often work as data analysts, data scientists, or research analysts.\n\nStudying EDA typically involves learning statistics, visualization principles, and tools like Python, R, Matplotlib, Seaborn, and Tableau. Hands-on practice with real datasets is essential for mastering this skill.",
+		"shortIntroduction": "Exploratory Data Analysis examines datasets using visualization and summary statistics to understand their structure and patterns.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Data Science",
+			"Data Analysis",
+			"Exploratory Data Analysis"
+		]
+	},
+	{
+		"title": "Statistical Analysis",
+		"introduction": "Statistical Analysis involves applying mathematical and statistical techniques to interpret data, test hypotheses, and draw reliable conclusions. It forms the backbone of scientific research, business analytics, and data-driven decision-making. Statistical analysis helps uncover relationships between variables, measure uncertainty, and validate findings.\n\nThis field suits individuals who enjoy mathematical reasoning, logical thinking, and working with structured data. People who are detail-oriented, analytical, and comfortable with probability and statistical concepts tend to excel in this area.\n\nIn Iran, statistical analysis is widely used in academia, healthcare, finance, and government research. Internationally, it is essential in industries such as pharmaceuticals, economics, marketing, and technology. Careers include statistician, data analyst, research scientist, and quality control specialist.\n\nStudying statistical analysis typically involves coursework in probability, inference, regression, and experimental design. Students often practice using tools like R, Python, SPSS, and statistical modeling libraries.",
+		"shortIntroduction": "Statistical Analysis uses mathematical and statistical techniques to interpret data and draw reliable conclusions.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Data Science",
+			"Data Analysis",
+			"Statistical Analysis"
+		]
+	},
+	{
+		"title": "Data Mining",
+		"introduction": "Data Mining is the process of discovering hidden patterns, correlations, and valuable insights from large datasets using machine learning, statistical methods, and database systems. It is widely used in marketing, fraud detection, recommendation systems, and scientific research. Data mining helps organizations make data-driven decisions by uncovering trends that are not immediately visible.\n\nThis field is ideal for individuals who enjoy analytical thinking, pattern recognition, and working with large-scale data. People who are curious, detail-oriented, and comfortable with algorithms and data processing techniques tend to excel in data mining.\n\nIn Iran, data mining is used in banking, telecommunications, e-commerce, and academic research. Internationally, it is a key component of big data analytics, offering opportunities in tech companies, research labs, and enterprise analytics teams. Careers include data mining specialist, machine learning engineer, and business intelligence analyst.\n\nStudying data mining typically involves learning machine learning algorithms, database systems, and statistical modeling. Students often gain experience using Python, R, SQL, and big data tools such as Hadoop or Spark.",
+		"shortIntroduction": "Data Mining discovers hidden patterns and valuable insights from large datasets using machine learning and statistical techniques.",
+		"subfields": [
+			"Association Rules",
+			"Anomaly Detection"
+		],
+		"way2place": [
+			"Computer Science",
+			"Data Science",
+			"Data Mining"
+		]
+	},
+	{
+		"title": "Association Rules",
+		"introduction": "Association Rules are a data mining technique used to identify relationships and frequent patterns between items in large datasets. They are commonly applied in market basket analysis, recommendation systems, and customer behavior modeling. Association rules help organizations understand which items or events tend to occur together.\n\nThis field suits individuals who enjoy pattern discovery, logical reasoning, and working with transactional data. People who are analytical, detail-oriented, and comfortable with algorithms tend to excel in association rule mining.\n\nIn Iran, association rules are used in retail analytics, banking, and e-commerce. Internationally, they play a major role in recommendation engines, marketing analytics, and fraud detection. Careers include data mining analyst, business intelligence specialist, and machine learning practitioner.\n\nStudying association rules typically involves learning algorithms such as Apriori and FP-Growth, along with concepts like support, confidence, and lift. Students often practice using Python, R, and data mining libraries.",
+		"shortIntroduction": "Association Rules identify relationships and frequent patterns between items in large datasets.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Data Science",
+			"Data Mining",
+			"Association Rules"
+		]
+	},
+	{
+		"title": "Anomaly Detection",
+		"introduction": "Anomaly Detection is the process of identifying unusual patterns or outliers that deviate from expected behavior in data. It is essential in applications such as fraud detection, cybersecurity, industrial monitoring, and healthcare diagnostics. Anomaly detection techniques help detect rare events that may indicate errors, threats, or significant changes.\n\nThis field is ideal for individuals who enjoy problem-solving, pattern recognition, and working with complex datasets. People who are analytical, detail-oriented, and comfortable with statistical and machine learning methods tend to excel in anomaly detection.\n\nIn Iran, anomaly detection is used in banking, telecommunications, and industrial automation. Internationally, it is widely applied in cybersecurity, finance, IoT systems, and AI-driven monitoring platforms. Careers include data scientist, security analyst, and machine learning engineer.\n\nStudying anomaly detection typically involves learning statistical modeling, clustering, and machine learning algorithms. Students often practice using Python, R, and tools designed for monitoring and anomaly detection.",
+		"shortIntroduction": "Anomaly Detection identifies unusual patterns or outliers that deviate from expected behavior in data.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Data Science",
+			"Data Mining",
+			"Anomaly Detection"
+		]
+	},
+	{
+		"title": "Big Data",
+		"introduction": "Big Data focuses on processing, storing, and analyzing extremely large and complex datasets that traditional systems cannot handle efficiently. It relies on scalable technologies and distributed computing frameworks to extract insights from massive volumes of structured and unstructured data. Big Data plays a crucial role in industries such as finance, healthcare, telecommunications, and e-commerce.\n\nThis field is ideal for individuals who enjoy working with large-scale systems, solving performance challenges, and analyzing high-volume data. People who are analytical, detail-oriented, and comfortable with programming and distributed systems tend to excel in Big Data.\n\nIn Iran, Big Data is increasingly used in banking, telecommunications, and government analytics. Internationally, it is a core component of modern data infrastructure, with opportunities in tech companies, cloud providers, and enterprise analytics teams. Careers include Big Data engineer, data engineer, and analytics architect.\n\nStudying Big Data typically involves learning distributed computing, database systems, and data processing frameworks. Students often gain experience using tools like Hadoop, Spark, Kafka, and cloud-based data platforms.",
+		"shortIntroduction": "Big Data involves processing and analyzing extremely large and complex datasets using scalable technologies.",
+		"subfields": [
+			"Distributed Computing",
+			"Hadoop / Spark"
+		],
+		"way2place": [
+			"Computer Science",
+			"Data Science",
+			"Big Data"
+		]
+	},
+	{
+		"title": "Distributed Computing",
+		"introduction": "Distributed Computing involves dividing computational tasks across multiple machines to improve scalability, performance, and fault tolerance. It enables systems to process large datasets and complex workloads that cannot be handled by a single computer. Distributed computing forms the backbone of cloud services, Big Data platforms, and large-scale applications.\n\nThis field suits individuals who enjoy system-level thinking, problem-solving, and optimizing performance. People who are analytical, detail-oriented, and comfortable with networking, algorithms, and parallel processing tend to excel in distributed computing.\n\nIn Iran, distributed computing is used in academic research, enterprise systems, and telecommunications. Internationally, it is essential for cloud computing, large-scale analytics, and high-performance applications, offering opportunities in tech companies, cloud providers, and research institutions.\n\nStudying distributed computing typically involves learning about distributed algorithms, system architecture, and parallel processing. Students often practice using frameworks like Hadoop, Spark, and cloud platforms.",
+		"shortIntroduction": "Distributed Computing divides tasks across multiple machines to improve scalability and performance.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Data Science",
+			"Big Data",
+			"Distributed Computing"
+		]
+	},
+	{
+		"title": "Hadoop / Spark",
+		"introduction": "Hadoop and Spark are powerful distributed frameworks designed for processing and analyzing large-scale datasets efficiently. Hadoop provides a reliable ecosystem for batch processing and distributed storage through HDFS, while Spark offers high-speed in-memory computation suitable for real-time analytics and machine learning workloads.\n\nThis field is ideal for individuals who enjoy working with large datasets, optimizing performance, and building scalable data pipelines. People who are analytical, detail-oriented, and comfortable with programming and distributed systems tend to excel in Hadoop and Spark.\n\nIn Iran, Hadoop and Spark are used in telecommunications, banking, and enterprise analytics. Internationally, they are widely adopted in cloud platforms, tech companies, and data-driven organizations. Careers include Big Data engineer, data engineer, and analytics developer.\n\nStudying Hadoop and Spark typically involves learning distributed storage, cluster computing, and data processing techniques. Students often gain experience using tools like HDFS, MapReduce, Spark SQL, and Spark MLlib.",
+		"shortIntroduction": "Hadoop and Spark are distributed frameworks for processing and analyzing large-scale datasets efficiently.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Data Science",
+			"Big Data",
+			"Hadoop / Spark"
+		]
+	},
+	{
+		"title": "Applied Data Science",
+		"introduction": "Applied Data Science focuses on using data science techniques to solve real-world problems and build practical, data-driven solutions. It involves applying machine learning, statistical analysis, and data engineering to create models, dashboards, and decision-support tools that deliver measurable impact in business and industry.\n\nThis field suits individuals who enjoy hands-on problem-solving, working with real datasets, and translating insights into actionable outcomes. People who are analytical, creative, and comfortable with programming and communication tend to excel in applied data science.\n\nIn Iran, applied data science is used in finance, marketing, healthcare, and e-commerce. Internationally, it is a highly sought-after skill in tech companies, consulting firms, and research organizations. Careers include data scientist, machine learning engineer, and analytics consultant.\n\nStudying applied data science typically involves learning machine learning, data visualization, predictive modeling, and deployment techniques. Students often gain experience through projects, internships, and tools like Python, SQL, and cloud platforms.",
+		"shortIntroduction": "Applied Data Science uses data science techniques to solve real-world problems and deploy practical, data-driven solutions.",
+		"subfields": [
+			"Data Visualization",
+			"Predictive Modeling",
+			"Recommendation Systems"
+		],
+		"way2place": [
+			"Computer Science",
+			"Data Science",
+			"Applied Data Science"
+		]
+	},
+	{
+		"title": "Data Visualization",
+		"introduction": "Data Visualization focuses on presenting data through visual formats such as charts, dashboards, and interactive graphics to make insights easier to understand. It helps organizations communicate complex information clearly and supports data-driven decision-making. Effective visualization combines analytical thinking with design principles.\n\nThis field is ideal for individuals who enjoy visual communication, storytelling, and working with data. People who are creative, detail-oriented, and comfortable with analytical tools tend to excel in data visualization.\n\nIn Iran, data visualization is widely used in business intelligence, marketing analytics, and government reporting. Internationally, it is essential in tech companies, consulting firms, and research organizations. Careers include data visualization specialist, BI analyst, and dashboard designer.\n\nStudying data visualization typically involves learning design principles, statistics, and visualization tools. Students often practice using platforms like Tableau, Power BI, and Python libraries such as Matplotlib and Seaborn.",
+		"shortIntroduction": "Data Visualization presents data through visual formats such as charts and dashboards to make insights easier to understand.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Data Science",
+			"Applied Data Science",
+			"Data Visualization"
+		]
+	},
+	{
+		"title": "Predictive Modeling",
+		"introduction": "Predictive Modeling uses historical data and machine learning techniques to forecast future outcomes. It helps organizations anticipate trends, identify risks, and make strategic decisions. Predictive models are widely used in finance, healthcare, marketing, and operations.\n\nThis field suits individuals who enjoy analytical reasoning, working with data, and building machine learning models. People who are detail-oriented, curious, and comfortable with mathematics and programming tend to excel in predictive modeling.\n\nIn Iran, predictive modeling is used in banking, insurance, and business analytics. Internationally, it is a core component of data science and AI, offering opportunities in tech companies, research labs, and enterprise analytics teams. Careers include machine learning engineer, data scientist, and forecasting analyst.\n\nStudying predictive modeling typically involves learning regression, classification, time series analysis, and model evaluation. Students often practice using Python, R, and machine learning frameworks.",
+		"shortIntroduction": "Predictive Modeling uses historical data and machine learning techniques to forecast future outcomes.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Data Science",
+			"Applied Data Science",
+			"Predictive Modeling"
+		]
+	},
+	{
+		"title": "Recommendation Systems",
+		"introduction": "Recommendation Systems provide personalized suggestions to users based on their preferences, behavior, and historical data. They power applications such as e-commerce product recommendations, movie and music suggestions, and personalized content feeds. These systems use techniques like collaborative filtering, content-based filtering, and deep learning.\n\nThis field is ideal for individuals who enjoy understanding user behavior, building machine learning models, and solving personalization challenges. People who are analytical, creative, and comfortable with data and algorithms tend to excel in recommendation systems.\n\nIn Iran, recommendation systems are used in e-commerce, streaming platforms, and digital marketing. Internationally, they are essential in major tech companies, entertainment platforms, and AI-driven businesses. Careers include recommendation system engineer, data scientist, and personalization specialist.\n\nStudying recommendation systems typically involves learning machine learning, matrix factorization, user modeling, and deep learning techniques. Students often gain experience using Python, recommender libraries, and real-world datasets.",
+		"shortIntroduction": "Recommendation Systems suggest personalized items or content to users based on data and behavior patterns.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Data Science",
+			"Applied Data Science",
+			"Recommendation Systems"
+		]
+	},
+	{
+		"title": "Software Engineering",
+		"introduction": "Software Engineering is the discipline of designing, developing, testing, and maintaining software systems that are reliable, efficient, and scalable. It combines principles of computer science, engineering, and project management to ensure that software products meet user needs and industry standards. Software engineers work across various domains, from web and mobile applications to enterprise systems and embedded technologies.\n\nThis field is ideal for individuals who enjoy problem‑solving, logical thinking, and building practical solutions. People who are detail‑oriented, patient, and comfortable with continuous learning tend to excel in software engineering, as technologies evolve rapidly. Strong communication skills also help when collaborating with teams and clients.\n\nIn Iran, software engineering has a strong job market in startups, fintech, telecommunications, and enterprise software companies. Internationally, it is one of the most in‑demand tech fields, offering opportunities in global tech firms, remote work positions, and research institutions. Roles include software engineer, backend developer, QA engineer, and software architect.\n\nStudying software engineering typically involves coursework in programming, algorithms, databases, software design, and project management. Students often gain experience through internships, personal projects, and participation in open‑source communities.",
+		"shortIntroduction": "Software Engineering focuses on designing, building, and maintaining reliable and scalable software systems.",
+		"subfields": [
+			"Software Development",
+			"Software Testing & QA",
+			"Software Architecture"
+		],
+		"way2place": [
+			"Computer Science",
+			"Software Engineering"
+		]
+	},
+	{
+		"title": "Software Development",
+		"introduction": "Software Development is the process of designing, coding, and deploying applications that solve real‑world problems. Developers work with programming languages, frameworks, and tools to build software for web, mobile, desktop, and embedded systems. The field emphasizes creativity, technical skill, and the ability to translate ideas into functional products.\n\nThis field suits individuals who enjoy building things, experimenting with technology, and solving logical challenges. People who are persistent, curious, and comfortable learning new tools and languages thrive in software development.\n\nIn Iran, software development is a rapidly growing field with opportunities in startups, enterprise companies, and freelance markets. Internationally, developers are in high demand across tech companies, remote teams, and global platforms. Common roles include frontend developer, backend developer, mobile developer, and full‑stack engineer.\n\nStudying software development typically involves learning programming languages, data structures, algorithms, and development methodologies. Hands‑on practice through projects, coding challenges, and internships is essential for success.",
+		"shortIntroduction": "Software Development focuses on creating applications and systems through coding, design, and iterative problem‑solving.",
+		"subfields": [
+			"Web Development",
+			"Mobile Development",
+			"Desktop Applications"
+		],
+		"way2place": [
+			"Computer Science",
+			"Software Engineering",
+			"Software Development"
+		]
+	},
+	{
+		"title": "Web Development",
+		"introduction": "Web Development focuses on creating websites and web applications that users interact with through browsers. It includes both the visual interface and the server‑side logic that powers dynamic features. Web developers use a combination of programming languages, frameworks, and design principles to build responsive, secure, and scalable applications.\n\nThis field is ideal for individuals who enjoy creativity, problem‑solving, and working with rapidly evolving technologies. People who are detail‑oriented, analytical, and comfortable with both design and coding tend to excel in web development.\n\nIn Iran, web development is one of the most in‑demand tech fields, especially in e‑commerce, SaaS companies, and digital agencies. Internationally, it offers abundant opportunities in startups, tech giants, and remote freelance work. Roles include frontend developer, backend developer, and full‑stack developer.\n\nStudying web development typically involves learning HTML, CSS, JavaScript, backend languages, databases, and modern frameworks. Building real projects and contributing to open‑source communities greatly enhances skill development.",
+		"shortIntroduction": "Web Development builds interactive websites and web applications using frontend and backend technologies.",
+		"subfields": [
+			"Frontend",
+			"Backend",
+			"Full Stack Development"
+		],
+		"way2place": [
+			"Computer Science",
+			"Software Engineering",
+			"Software Development",
+			"Web Development"
+		]
+	},
+	{
+		"title": "Frontend",
+		"introduction": "Frontend development involves creating the user interface and interactive elements of websites and web applications. It focuses on delivering a smooth, visually appealing, and responsive experience using technologies like HTML, CSS, JavaScript, and modern frameworks such as React or Vue.\n\nThis field suits individuals who enjoy design, creativity, and crafting user‑friendly experiences. People who are detail‑oriented, visually aware, and comfortable with rapid iteration tend to excel in frontend development.\n\nIn Iran, frontend developers are in high demand in startups, e‑commerce platforms, and digital agencies. Internationally, frontend development offers strong opportunities in tech companies, remote teams, and freelance markets.\n\nStudying frontend development typically involves learning UI/UX principles, responsive design, JavaScript frameworks, and performance optimization. Building real projects and portfolios is essential for career growth.",
+		"shortIntroduction": "Frontend focuses on building the visual and interactive parts of websites that users directly interact with.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Software Engineering",
+			"Software Development",
+			"Web Development",
+			"Frontend"
+		]
+	},
+	{
+		"title": "Backend",
+		"introduction": "Backend development focuses on building the server‑side logic, databases, and APIs that enable applications to function behind the scenes. Backend developers ensure that data is processed securely, efficiently, and reliably. They work with languages such as Python, Java, Node.js, and frameworks that support scalable architectures.\n\nThis field is ideal for individuals who enjoy problem‑solving, system design, and working with data. People who are analytical, detail‑oriented, and comfortable with algorithms and architecture tend to excel in backend development.\n\nIn Iran, backend developers are highly sought after in fintech, enterprise systems, and large‑scale web platforms. Internationally, backend roles are abundant in tech companies, cloud services, and distributed systems teams.\n\nStudying backend development typically involves learning databases, APIs, server frameworks, and security principles. Hands‑on experience with real projects and system design is crucial.",
+		"shortIntroduction": "Backend development builds the server-side logic, databases, and APIs that power web applications.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Software Engineering",
+			"Software Development",
+			"Web Development",
+			"Backend"
+		]
+	},
+	{
+		"title": "Full Stack Development",
+		"introduction": "Full Stack Development involves working on both the frontend and backend of web applications, enabling developers to build complete systems from user interface to server logic. Full stack developers understand how all layers of an application interact and can manage the entire development lifecycle.\n\nThis field suits individuals who enjoy versatility, continuous learning, and solving problems across multiple layers of technology. People who are adaptable, curious, and comfortable juggling different tools and frameworks thrive in full stack roles.\n\nIn Iran, full stack developers are highly valued in startups and small teams where flexibility is essential. Internationally, they are in demand across tech companies, remote teams, and freelance markets.\n\nStudying full stack development typically involves learning frontend frameworks, backend languages, databases, and deployment tools. Building full projects and mastering version control is key to success.",
+		"shortIntroduction": "Full Stack Development combines frontend and backend skills to build complete web applications end‑to‑end.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Software Engineering",
+			"Software Development",
+			"Web Development",
+			"Full Stack Development"
+		]
+	},
+	{
+		"title": "Mobile Development",
+		"introduction": "Mobile Development focuses on building applications for smartphones, tablets, and wearable devices. Developers use native technologies like Kotlin for Android and Swift for iOS, or cross‑platform frameworks such as Flutter and React Native. Mobile apps power modern digital experiences across industries.\n\nThis field is ideal for individuals who enjoy creating interactive, user‑focused applications and working with device‑specific features. People who are creative, analytical, and comfortable with rapid iteration excel in mobile development.\n\nIn Iran, mobile developers are in high demand in fintech, e‑commerce, and startup ecosystems. Internationally, mobile development offers strong opportunities in tech companies, app studios, and freelance markets.\n\nStudying mobile development typically involves learning mobile UI design, APIs, databases, and platform‑specific tools. Building real apps and publishing them is a major advantage.",
+		"shortIntroduction": "Mobile Development creates applications for smartphones and tablets using native or cross‑platform technologies.",
+		"subfields": [
+			"Android Development",
+			"iOS Development"
+		],
+		"way2place": [
+			"Computer Science",
+			"Software Engineering",
+			"Software Development",
+			"Mobile Development"
+		]
+	},
+	{
+		"title": "Android Development",
+		"introduction": "Android Development focuses on creating applications for Android smartphones, tablets, and smart devices. Developers use Kotlin, Java, and Android frameworks to build responsive, user‑friendly apps that integrate with device hardware and Google services.\n\nThis field suits individuals who enjoy mobile technology, problem‑solving, and building interactive applications. People who are detail‑oriented, creative, and comfortable with continuous learning thrive in Android development.\n\nIn Iran, Android development is one of the most in‑demand tech skills due to the widespread use of Android devices. Internationally, Android developers are needed in tech companies, app studios, and global marketplaces.\n\nStudying Android development typically involves learning Kotlin, Android Studio, UI design, and API integration. Building and publishing apps is essential for practical experience.",
+		"shortIntroduction": "Android Development builds applications for Android devices using Kotlin, Java, and modern mobile frameworks.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Software Engineering",
+			"Software Development",
+			"Mobile Development",
+			"Android Development"
+		]
+	},
+	{
+		"title": "iOS Development",
+		"introduction": "iOS Development focuses on building applications for Apple devices such as iPhones, iPads, and Apple Watches. Developers use Swift and Xcode to create high‑performance, visually polished apps that integrate with the Apple ecosystem.\n\nThis field is ideal for individuals who enjoy design, precision, and working with a refined development environment. People who are detail‑oriented, creative, and comfortable with strict design guidelines excel in iOS development.\n\nIn Iran, iOS development is valued in premium app markets and tech companies. Internationally, iOS developers are in high demand due to the strong global presence of Apple devices.\n\nStudying iOS development typically involves learning Swift, UIKit/SwiftUI, and Apple’s design principles. Building real apps and understanding the App Store ecosystem is crucial.",
+		"shortIntroduction": "iOS Development creates applications for Apple devices using Swift and the iOS ecosystem.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Software Engineering",
+			"Software Development",
+			"Mobile Development",
+			"iOS Development"
+		]
+	},
+	{
+		"title": "Desktop Applications",
+		"introduction": "Desktop Application Development focuses on creating software that runs directly on computers using operating systems like Windows, macOS, or Linux. These applications often provide powerful features, offline capabilities, and deep system integration. Developers use languages such as C#, Java, C++, or frameworks like Electron.\n\nThis field suits individuals who enjoy building robust, feature‑rich software and working with system‑level tools. People who are analytical, detail‑oriented, and comfortable with performance optimization excel in desktop development.\n\nIn Iran, desktop applications are widely used in enterprise software, banking systems, and industrial tools. Internationally, desktop development remains important in engineering, finance, and creative industries.\n\nStudying desktop development typically involves learning programming languages, UI frameworks, and system APIs. Building real applications and understanding OS‑level concepts is essential.",
+		"shortIntroduction": "Desktop Applications are software programs designed to run on Windows, macOS, or Linux computers.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Software Engineering",
+			"Software Development",
+			"Desktop Applications"
+		]
+	},
+	{
+		"title": "Software Testing & QA",
+		"introduction": "Software Testing & QA focuses on evaluating software to ensure it is reliable, functional, and free of critical defects. It involves systematic processes such as test planning, execution, documentation, and quality assurance practices that help maintain high standards throughout the development lifecycle. QA professionals work closely with developers to prevent issues and improve overall product quality.\n\nThis field suits individuals who are detail-oriented, analytical, and patient. People who enjoy finding inconsistencies, thinking critically, and ensuring precision tend to excel in QA roles. Strong communication skills are also valuable, as testers often collaborate with cross-functional teams.\n\nIn Iran, QA roles are in demand across software companies, fintech, and enterprise systems. Internationally, Software Testing & QA is a core part of the tech industry, offering opportunities in global companies, remote teams, and specialized testing firms. Common roles include QA engineer, test analyst, automation tester, and quality assurance specialist.\n\nStudying QA typically involves learning testing methodologies, software development processes, and tools for manual and automated testing. Hands-on practice with test cases, bug tracking systems, and automation frameworks is essential for career growth.",
+		"shortIntroduction": "Software Testing & QA ensures software quality by detecting defects and verifying that systems work as intended.",
+		"subfields": [
+			"Unit Testing",
+			"Integration Testing",
+			"Automated Testing"
+		],
+		"way2place": [
+			"Computer Science",
+			"Software Engineering",
+			"Software Testing & QA"
+		]
+	},
+	{
+		"title": "Unit Testing",
+		"introduction": "Unit Testing focuses on testing the smallest parts of a software system—usually functions or modules—to ensure they work correctly in isolation. It helps developers catch bugs early, improve code quality, and maintain stable systems as the codebase grows.\n\nThis field suits individuals who enjoy precision, logical thinking, and writing clean, maintainable code. People who are detail-oriented and comfortable with debugging and code analysis excel in unit testing.\n\nIn Iran, unit testing is increasingly adopted in modern development teams, especially in startups and enterprise systems. Internationally, it is a standard practice in software engineering, essential for continuous integration and agile development.\n\nStudying unit testing typically involves learning testing frameworks, writing test cases, and understanding concepts like mocking and test-driven development (TDD).",
+		"shortIntroduction": "Unit Testing verifies the correctness of individual components or functions in a software system.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Software Engineering",
+			"Software Testing & QA",
+			"Unit Testing"
+		]
+	},
+	{
+		"title": "Integration Testing",
+		"introduction": "Integration Testing ensures that multiple components or modules of a software system interact correctly. It identifies issues that may not appear in isolated unit tests, such as data flow errors, interface mismatches, or unexpected behavior between subsystems.\n\nThis field suits individuals who enjoy system-level thinking, debugging complex interactions, and ensuring smooth communication between components. People who are analytical and patient excel in integration testing.\n\nIn Iran, integration testing is widely used in enterprise systems, banking software, and large-scale applications. Internationally, it is a critical part of QA pipelines in tech companies and cloud-based platforms.\n\nStudying integration testing involves learning testing strategies, API testing, and tools that simulate multi-component environments.",
+		"shortIntroduction": "Integration Testing checks how different software components work together as a unified system.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Software Engineering",
+			"Software Testing & QA",
+			"Integration Testing"
+		]
+	},
+	{
+		"title": "Automated Testing",
+		"introduction": "Automated Testing involves using software tools and scripts to execute tests automatically, reducing manual effort and increasing testing speed and reliability. It is essential for large systems, continuous integration pipelines, and applications that require frequent updates.\n\nThis field suits individuals who enjoy coding, problem-solving, and optimizing workflows. People who are analytical, detail-oriented, and comfortable with scripting and automation frameworks excel in automated testing.\n\nIn Iran, automated testing is growing rapidly in fintech, e-commerce, and enterprise software. Internationally, it is a highly valued skill in DevOps, cloud platforms, and large-scale development teams.\n\nStudying automated testing typically involves learning automation tools, scripting languages, and frameworks such as Selenium, Cypress, or Playwright.",
+		"shortIntroduction": "Automated Testing uses scripts and tools to run tests automatically, improving speed and consistency in QA.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Software Engineering",
+			"Software Testing & QA",
+			"Automated Testing"
+		]
+	},
+	{
+		"title": "Software Architecture",
+		"introduction": "Software Architecture focuses on designing the overall structure of software systems, defining how components interact, and ensuring scalability, maintainability, and performance. Architects make high-level decisions about technologies, patterns, and system organization.\n\nThis field suits individuals who enjoy strategic thinking, system design, and solving large-scale engineering challenges. People who are analytical, experienced, and comfortable with both technical and business considerations excel in software architecture.\n\nIn Iran, software architects are in demand in enterprise systems, banking, and large tech companies. Internationally, architecture roles are essential in cloud platforms, distributed systems, and high-traffic applications.\n\nStudying software architecture typically involves learning design patterns, system modeling, cloud architectures, and best practices for scalable systems.",
+		"shortIntroduction": "Software Architecture defines the high-level structure and design principles that shape complex software systems.",
+		"subfields": [
+			"Microservices",
+			"Monolithic Architecture",
+			"Cloud-Native Architecture"
+		],
+		"way2place": [
+			"Computer Science",
+			"Software Engineering",
+			"Software Architecture"
+		]
+	},
+	{
+		"title": "Microservices",
+		"introduction": "Microservices architecture structures applications as a collection of small, independent services that communicate through APIs. Each service handles a specific function, allowing teams to develop, deploy, and scale components independently.\n\nThis field suits individuals who enjoy distributed systems, modular design, and solving scalability challenges. People who are analytical and comfortable with DevOps practices excel in microservices.\n\nIn Iran, microservices are increasingly used in fintech, e-commerce, and enterprise modernization. Internationally, they are a standard architecture in cloud-native applications.\n\nStudying microservices involves learning containerization, API design, service orchestration, and tools like Docker and Kubernetes.",
+		"shortIntroduction": "Microservices architecture builds applications as small, independent services that communicate through APIs.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Software Engineering",
+			"Software Architecture",
+			"Microservices"
+		]
+	},
+	{
+		"title": "Monolithic Architecture",
+		"introduction": "Monolithic Architecture structures an application as a single, unified system where all components are tightly integrated. It is simpler to develop initially and easier to deploy, making it suitable for small to medium-sized projects.\n\nThis field suits individuals who enjoy straightforward system design and working with cohesive codebases. People who prefer simplicity and centralized control often excel in monolithic environments.\n\nIn Iran, monolithic systems are still common in legacy enterprise applications. Internationally, they remain relevant for smaller teams and early-stage startups.\n\nStudying monolithic architecture involves learning traditional software design, MVC patterns, and deployment strategies for single-application systems.",
+		"shortIntroduction": "Monolithic Architecture builds an entire application as a single, unified codebase.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Software Engineering",
+			"Software Architecture",
+			"Monolithic Architecture"
+		]
+	},
+	{
+		"title": "Cloud-Native Architecture",
+		"introduction": "Cloud-Native Architecture focuses on building applications specifically designed to run in cloud environments. It emphasizes scalability, resilience, automation, and distributed design using technologies like containers, microservices, and orchestration platforms.\n\nThis field suits individuals who enjoy modern infrastructure, DevOps practices, and designing systems that scale globally. People who are analytical, adaptable, and comfortable with cloud technologies excel in cloud-native development.\n\nIn Iran, cloud-native adoption is growing in tech companies and enterprise modernization efforts. Internationally, it is a leading architecture in global cloud platforms and high-traffic applications.\n\nStudying cloud-native architecture involves learning containerization, Kubernetes, cloud services, CI/CD pipelines, and distributed system design.",
+		"shortIntroduction": "Cloud-Native Architecture designs applications optimized for scalability, resilience, and deployment in cloud environments.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Software Engineering",
+			"Software Architecture",
+			"Cloud-Native Architecture"
+		]
+	},
+	{
+		"title": "Networking & Security",
+		"introduction": "Networking & Security is the field dedicated to designing, managing, and protecting computer networks and digital infrastructures. It covers everything from how data travels across devices to how systems defend themselves against cyberattacks. Professionals in this field ensure that communication is fast, reliable, and secure.\n\nThis field suits individuals who enjoy problem‑solving, logical thinking, and working with complex systems. People who are detail‑oriented, patient, and interested in both hardware and software aspects of technology tend to excel in networking and security.\n\nIn Iran, networking and security specialists are in demand in telecommunications, banking, government organizations, and IT companies. Internationally, the field offers strong opportunities in cybersecurity firms, cloud providers, and global enterprises. Roles include network engineer, cybersecurity analyst, SOC specialist, and security consultant.\n\nStudying networking and security typically involves learning network protocols, operating systems, firewalls, encryption, and security best practices. Hands‑on experience with labs, simulations, and certifications is highly valuable.",
+		"shortIntroduction": "Networking & Security focuses on building reliable networks and protecting systems from digital threats.",
+		"subfields": [
+			"Computer Networks",
+			"Cybersecurity"
+		],
+		"way2place": [
+			"Computer Science",
+			"Networking & Security"
+		]
+	},
+	{
+		"title": "Computer Networks",
+		"introduction": "Computer Networks focus on how devices communicate and share information across local and global infrastructures. This field covers network design, routing, switching, wireless communication, and the protocols that make the internet function. Network engineers ensure that systems remain fast, stable, and secure.\n\nThis field suits individuals who enjoy technical problem‑solving, system design, and understanding how digital communication works. People who are analytical, patient, and comfortable with hardware and software integration excel in networking.\n\nIn Iran, computer networks are essential in telecommunications, ISPs, enterprise IT, and data centers. Internationally, networking professionals are needed in cloud companies, global tech firms, and cybersecurity organizations.\n\nStudying computer networks typically involves learning routing protocols, network topologies, wireless systems, and tools like Cisco, MikroTik, and Wireshark.",
+		"shortIntroduction": "Computer Networks connect devices and systems to enable communication and data exchange.",
+		"subfields": [
+			"LAN / WAN",
+			"Wireless Networks",
+			"Network Protocols"
+		],
+		"way2place": [
+			"Computer Science",
+			"Networking & Security",
+			"Computer Networks"
+		]
+	},
+	{
+		"title": "LAN / WAN",
+		"introduction": "LAN (Local Area Network) and WAN (Wide Area Network) are foundational networking concepts that define how devices communicate within small areas or across long distances. LANs connect devices within homes, offices, or campuses, while WANs link networks across cities, countries, or global infrastructures.\n\nThis field suits individuals who enjoy configuring hardware, optimizing network performance, and solving connectivity issues. People who are detail‑oriented and comfortable with structured technical work excel in LAN/WAN management.\n\nIn Iran, LAN/WAN specialists are needed in enterprises, ISPs, and government networks. Internationally, they play key roles in global corporations, telecom providers, and cloud infrastructure teams.\n\nStudying LAN/WAN involves learning routing, switching, cabling, wireless systems, and network troubleshooting.",
+		"shortIntroduction": "LAN/WAN technologies manage local and wide-area networks for efficient communication across small and large environments.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Networking & Security",
+			"Computer Networks",
+			"LAN / WAN"
+		]
+	},
+	{
+		"title": "Wireless Networks",
+		"introduction": "Wireless Networks focus on enabling communication without physical cables, using technologies such as Wi‑Fi, Bluetooth, and cellular networks. This field ensures that mobile devices, IoT systems, and modern infrastructures stay connected reliably and securely.\n\nThis field suits individuals who enjoy working with radio technologies, troubleshooting connectivity issues, and optimizing network performance. People who are analytical and curious about wireless communication excel in this area.\n\nIn Iran, wireless networking is widely used in telecom companies, ISPs, and smart city projects. Internationally, it is essential for mobile networks, IoT ecosystems, and enterprise wireless systems.\n\nStudying wireless networks involves learning radio frequency concepts, wireless protocols, antenna design, and network security.",
+		"shortIntroduction": "Wireless Networks enable devices to communicate without cables using Wi‑Fi, cellular, and radio technologies.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Networking & Security",
+			"Computer Networks",
+			"Wireless Networks"
+		]
+	},
+	{
+		"title": "Network Protocols",
+		"introduction": "Network Protocols are the rules and standards that govern how data is transmitted, received, and interpreted across networks. Protocols like TCP/IP, HTTP, DNS, and DHCP ensure that devices communicate efficiently and reliably.\n\nThis field suits individuals who enjoy understanding system internals, analyzing data flow, and solving communication problems. People who are detail‑oriented and comfortable with technical specifications excel in protocol analysis.\n\nIn Iran, protocol expertise is needed in ISPs, enterprise IT, and cybersecurity teams. Internationally, it is essential in cloud computing, networking companies, and global internet infrastructure.\n\nStudying network protocols involves learning OSI layers, packet structures, routing, and diagnostic tools like Wireshark.",
+		"shortIntroduction": "Network Protocols define the rules and standards that enable devices to communicate across networks.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Networking & Security",
+			"Computer Networks",
+			"Network Protocols"
+		]
+	},
+	{
+		"title": "Cybersecurity",
+		"introduction": "Cybersecurity focuses on defending systems, networks, and data from cyber threats such as hacking, malware, and unauthorized access. It involves risk assessment, security monitoring, incident response, and implementing protective technologies.\n\nThis field suits individuals who enjoy solving complex problems, thinking like an attacker, and staying updated with evolving threats. People who are analytical, detail‑oriented, and persistent excel in cybersecurity.\n\nIn Iran, cybersecurity is a rapidly growing field in banking, government, and enterprise IT. Internationally, it is one of the most in‑demand tech sectors, offering roles in SOC teams, security engineering, penetration testing, and digital forensics.\n\nStudying cybersecurity typically involves learning network security, cryptography, ethical hacking, and security frameworks. Hands‑on labs and certifications significantly boost career opportunities.",
+		"shortIntroduction": "Cybersecurity protects systems, networks, and data from digital attacks and unauthorized access.",
+		"subfields": [
+			"Network Security",
+			"Cryptography",
+			"Ethical Hacking & Penetration Testing",
+			"Malware Analysis"
+		],
+		"way2place": [
+			"Computer Science",
+			"Networking & Security",
+			"Cybersecurity"
+		]
+	},
+	{
+		"title": "Network Security",
+		"introduction": "Network Security focuses on securing computer networks by preventing unauthorized access, attacks, and data breaches. It involves configuring firewalls, intrusion detection systems, VPNs, and monitoring tools to ensure safe communication.\n\nThis field suits individuals who enjoy defensive strategies, analyzing threats, and maintaining secure infrastructures. People who are detail‑oriented and comfortable with technical troubleshooting excel in network security.\n\nIn Iran, network security roles are common in banks, telecom companies, and government IT departments. Internationally, it is a core part of cybersecurity teams in global enterprises.\n\nStudying network security involves learning encryption, firewalls, secure protocols, and threat detection tools.",
+		"shortIntroduction": "Network Security protects networks from unauthorized access, attacks, and data breaches.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Networking & Security",
+			"Cybersecurity",
+			"Network Security"
+		]
+	},
+	{
+		"title": "Cryptography",
+		"introduction": "Cryptography is the science of securing information through mathematical algorithms that encrypt, authenticate, and protect data. It is essential for secure communication, digital signatures, blockchain, and modern cybersecurity.\n\nThis field suits individuals who enjoy mathematics, logical reasoning, and solving abstract problems. People who are analytical and detail‑oriented excel in cryptography.\n\nIn Iran, cryptography is used in banking, secure communications, and national security systems. Internationally, it is vital in cybersecurity, blockchain technologies, and secure software development.\n\nStudying cryptography involves learning number theory, encryption algorithms, hashing, and secure communication protocols.",
+		"shortIntroduction": "Cryptography secures information by using mathematical techniques to encrypt and protect data.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Networking & Security",
+			"Cybersecurity",
+			"Cryptography"
+		]
+	},
+	{
+		"title": "Ethical Hacking & Penetration Testing",
+		"introduction": "Ethical Hacking & Penetration Testing focuses on identifying vulnerabilities in systems by simulating real cyberattacks. Ethical hackers use specialized tools and techniques to uncover weaknesses before malicious attackers exploit them.\n\nThis field suits individuals who enjoy problem‑solving, curiosity-driven exploration, and thinking like an attacker. People who are persistent, analytical, and comfortable with technical challenges excel in penetration testing.\n\nIn Iran, ethical hacking is increasingly used in banks, cybersecurity firms, and government organizations. Internationally, it is a high-demand field with roles in security consulting, SOC teams, and red‑team operations.\n\nStudying ethical hacking involves learning network security, exploitation techniques, vulnerability scanning, and tools like Metasploit, Burp Suite, and Kali Linux.",
+		"shortIntroduction": "Ethical Hacking identifies security weaknesses by legally testing systems through simulated attacks.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Networking & Security",
+			"Cybersecurity",
+			"Ethical Hacking & Penetration Testing"
+		]
+	},
+	{
+		"title": "Malware Analysis",
+		"introduction": "Malware Analysis involves examining malicious software to understand how it works, how it spreads, and how to defend against it. Analysts reverse-engineer malware, study its code, and identify indicators of compromise to support cybersecurity defenses.\n\nThis field suits individuals who enjoy deep technical analysis, reverse engineering, and solving complex puzzles. People who are patient, detail‑oriented, and comfortable with low-level programming excel in malware analysis.\n\nIn Iran, malware analysis is used in cybersecurity centers, government agencies, and research labs. Internationally, it is a critical skill in threat intelligence, incident response, and security research.\n\nStudying malware analysis involves learning assembly language, reverse engineering tools, sandboxing, and behavioral analysis techniques.",
+		"shortIntroduction": "Malware Analysis studies malicious software to understand its behavior and develop defenses against it.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Networking & Security",
+			"Cybersecurity",
+			"Malware Analysis"
+		]
+	},
+	{
+		"title": "Systems & Hardware",
+		"introduction": "Systems & Hardware is the field that explores how computers function at their core, covering operating systems, distributed systems, and hardware architecture. It focuses on the interaction between software and physical components, ensuring performance, reliability, and efficient resource management. Professionals in this field work on building the foundations that modern applications rely on.\n\nThis field suits individuals who enjoy low-level problem-solving, understanding how systems work internally, and optimizing performance. People who are analytical, detail-oriented, and comfortable with both hardware and software concepts excel in systems and hardware.\n\nIn Iran, this field is essential in telecommunications, embedded systems, and enterprise IT. Internationally, it offers strong opportunities in cloud computing, operating system development, hardware engineering, and infrastructure roles.\n\nStudying systems and hardware typically involves learning operating systems, computer architecture, distributed systems, and low-level programming. Hands-on experience with Linux, virtualization, and hardware tools is highly valuable.",
+		"shortIntroduction": "Systems & Hardware focuses on how computers operate at the system, hardware, and infrastructure levels.",
+		"subfields": [
+			"Operating Systems",
+			"Distributed Systems",
+			"Computer Architecture"
+		],
+		"way2place": [
+			"Systems & Hardware"
+		]
+	},
+	{
+		"title": "Operating Systems",
+		"introduction": "Operating Systems (OS) are the foundational software that manage hardware resources, run applications, and provide essential services such as memory management, process scheduling, and file systems. They ensure that computers operate efficiently and securely.\n\nThis field suits individuals who enjoy low-level programming, system design, and understanding how computers work internally. People who are analytical, patient, and comfortable with complex technical concepts excel in OS development.\n\nIn Iran, OS expertise is valuable in enterprise IT, embedded systems, and cybersecurity. Internationally, it is essential in cloud computing, system engineering, and operating system development.\n\nStudying operating systems typically involves learning process management, concurrency, memory systems, file systems, and kernel architecture. Hands-on work with Linux and OS simulators is crucial.",
+		"shortIntroduction": "Operating Systems manage hardware resources and provide the core environment for running applications.",
+		"subfields": [
+			"Windows / Linux / macOS",
+			"Kernel Development"
+		],
+		"way2place": [
+			"Systems & Hardware",
+			"Operating Systems"
+		]
+	},
+	{
+		"title": "Windows / Linux / macOS",
+		"introduction": "Windows, Linux, and macOS are the three dominant operating systems used across personal computers, servers, and enterprise environments. Each system has its own architecture, tools, and ecosystem, making OS proficiency essential for system administration, development, and IT operations.\n\nThis field suits individuals who enjoy system configuration, troubleshooting, and understanding OS internals. People who are analytical and comfortable with command-line tools excel in OS specialization.\n\nIn Iran, Linux and Windows administration are widely used in data centers, enterprise IT, and DevOps teams. Internationally, OS expertise is essential in cloud computing, cybersecurity, and software engineering.\n\nStudying these operating systems involves learning system commands, file systems, process management, and administrative tools.",
+		"shortIntroduction": "Windows, Linux, and macOS are major operating systems that power personal computers and enterprise environments.",
+		"subfields": [],
+		"way2place": [
+			"Systems & Hardware",
+			"Operating Systems",
+			"Windows / Linux / macOS"
+		]
+	},
+	{
+		"title": "Kernel Development",
+		"introduction": "Kernel Development involves designing and modifying the core part of an operating system that manages hardware, memory, processes, and system calls. Kernel developers work at the lowest software level, ensuring performance, stability, and hardware compatibility.\n\nThis field suits individuals who enjoy low-level programming, debugging, and understanding how computers operate internally. People who are detail-oriented and skilled in C programming excel in kernel development.\n\nIn Iran, kernel development is mostly found in research labs, embedded systems, and specialized tech companies. Internationally, it is a highly technical field with opportunities in OS companies, hardware manufacturers, and cloud providers.\n\nStudying kernel development involves learning C, operating system internals, device drivers, and memory management.",
+		"shortIntroduction": "Kernel Development focuses on building and modifying the core component of an operating system.",
+		"subfields": [],
+		"way2place": [
+			"Systems & Hardware",
+			"Operating Systems",
+			"Kernel Development"
+		]
+	},
+	{
+		"title": "Distributed Systems",
+		"introduction": "Distributed Systems focus on designing systems where multiple computers work together to provide scalable, reliable, and fault-tolerant services. These systems power cloud platforms, large-scale applications, and global services like databases, messaging systems, and microservices.\n\nThis field suits individuals who enjoy system design, solving large-scale challenges, and working with cloud technologies. People who are analytical and comfortable with algorithms and infrastructure excel in distributed systems.\n\nIn Iran, distributed systems are used in fintech, telecom, and enterprise software. Internationally, they are essential in cloud computing, big tech companies, and high-traffic platforms.\n\nStudying distributed systems involves learning consensus algorithms, replication, fault tolerance, and cloud-native architectures.",
+		"shortIntroduction": "Distributed Systems coordinate multiple computers to work together as a unified, scalable system.",
+		"subfields": [
+			"Cloud Computing",
+			"Microservices & Scalability"
+		],
+		"way2place": [
+			"Systems & Hardware",
+			"Distributed Systems"
+		]
+	},
+	{
+		"title": "Cloud Computing",
+		"introduction": "Cloud Computing provides computing power, storage, and services over the internet, allowing organizations to scale quickly without managing physical hardware. Cloud platforms like AWS, Azure, and Google Cloud power modern applications, distributed systems, and global infrastructures.\n\nThis field suits individuals who enjoy working with large-scale systems, automation, and modern infrastructure. People who are analytical and comfortable with DevOps tools excel in cloud computing.\n\nIn Iran, cloud adoption is growing in startups and enterprise IT. Internationally, cloud computing is one of the most in-demand fields in technology.\n\nStudying cloud computing involves learning virtualization, containerization, cloud services, and infrastructure automation.",
+		"shortIntroduction": "Cloud Computing delivers computing resources over the internet, enabling scalable and on-demand services.",
+		"subfields": [],
+		"way2place": [
+			"Systems & Hardware",
+			"Distributed Systems",
+			"Cloud Computing"
+		]
+	},
+	{
+		"title": "Microservices & Scalability",
+		"introduction": "Microservices & Scalability involve designing systems as small, independent services that can scale horizontally to handle increasing traffic. This approach improves flexibility, reliability, and deployment speed in modern applications.\n\nThis field suits individuals who enjoy distributed systems, architecture design, and solving performance challenges. People who are analytical and comfortable with DevOps and cloud tools excel in microservices.\n\nIn Iran, microservices are widely used in fintech and large-scale web platforms. Internationally, they are standard in cloud-native and high-traffic applications.\n\nStudying microservices involves learning API design, containerization, orchestration, and scalability patterns.",
+		"shortIntroduction": "Microservices & Scalability focus on building modular systems that grow efficiently under heavy load.",
+		"subfields": [],
+		"way2place": [
+			"Systems & Hardware",
+			"Distributed Systems",
+			"Microservices & Scalability"
+		]
+	},
+	{
+		"title": "Computer Architecture",
+		"introduction": "Computer Architecture focuses on how computers are built at the hardware level, including processors, memory systems, and input/output components. It explores how hardware executes instructions, manages data, and interacts with software.\n\nThis field suits individuals who enjoy hardware design, low-level programming, and understanding how computers work internally. People who are analytical and comfortable with mathematics and logic excel in computer architecture.\n\nIn Iran, computer architecture is used in embedded systems, hardware design, and academic research. Internationally, it is essential in CPU/GPU design, semiconductor companies, and high-performance computing.\n\nStudying computer architecture involves learning digital logic, processor design, memory hierarchies, and hardware-software interaction.",
+		"shortIntroduction": "Computer Architecture studies how processors, memory, and hardware components are designed and interact.",
+		"subfields": [
+			"CPU / GPU Architecture",
+			"Embedded Systems"
+		],
+		"way2place": [
+			"Systems & Hardware",
+			"Computer Architecture"
+		]
+	},
+	{
+		"title": "CPU / GPU Architecture",
+		"introduction": "CPU/GPU Architecture focuses on designing the internal structure of processors that execute instructions and handle graphics or parallel workloads. CPU architects optimize performance and efficiency, while GPU architects design massively parallel systems for graphics and AI.\n\nThis field suits individuals who enjoy hardware engineering, performance optimization, and low-level computation. People who are analytical and comfortable with digital logic and computer architecture excel here.\n\nIn Iran, CPU/GPU architecture is mostly found in research and embedded systems. Internationally, it is a high-demand field in semiconductor companies, AI hardware firms, and high-performance computing.\n\nStudying CPU/GPU architecture involves learning digital circuits, instruction pipelines, parallel computing, and hardware simulation tools.",
+		"shortIntroduction": "CPU/GPU Architecture designs the internal structure of processors that power computing and graphics workloads.",
+		"subfields": [],
+		"way2place": [
+			"Systems & Hardware",
+			"Computer Architecture",
+			"CPU / GPU Architecture"
+		]
+	},
+	{
+		"title": "Embedded Systems",
+		"introduction": "Embedded Systems focus on designing hardware-software solutions that control devices such as sensors, robots, appliances, and industrial machines. These systems are optimized for reliability, low power consumption, and real-time performance.\n\nThis field suits individuals who enjoy hands-on engineering, low-level programming, and working with electronics. People who are detail-oriented and comfortable with hardware constraints excel in embedded systems.\n\nIn Iran, embedded systems are widely used in automation, IoT, and electronics manufacturing. Internationally, they are essential in automotive, robotics, aerospace, and consumer electronics.\n\nStudying embedded systems involves learning microcontrollers, C/C++ programming, real-time operating systems, and circuit design.",
+		"shortIntroduction": "Embedded Systems integrate hardware and software to control devices like sensors, robots, and electronics.",
+		"subfields": [],
+		"way2place": [
+			"Systems & Hardware",
+			"Computer Architecture",
+			"Embedded Systems"
+		]
+	},
+	{
+		"title": "Robotics",
+		"introduction": "Robotics is the field dedicated to creating machines capable of performing physical tasks through mechanical design, electronics, and intelligent control. It combines engineering, computer science, and automation to build robots that assist in manufacturing, healthcare, exploration, and daily life. Robotics continues to expand as AI and sensors become more advanced.\n\nThis field suits individuals who enjoy hands-on engineering, problem‑solving, and integrating hardware with software. People who are curious, analytical, and comfortable with mathematics, physics, and programming excel in robotics.\n\nIn Iran, robotics is growing in industrial automation, academic research, and robotics competitions. Internationally, it offers strong opportunities in manufacturing, autonomous systems, aerospace, and service robotics. Careers include robotics engineer, automation specialist, and control systems developer.\n\nStudying robotics typically involves learning mechanics, electronics, control theory, programming, and AI. Practical experience with robotics kits, simulators, and real hardware is essential.",
+		"shortIntroduction": "Robotics focuses on designing, building, and programming machines that can perform physical tasks autonomously or semi‑autonomously.",
+		"subfields": [
+			"Industrial Robotics",
+			"Autonomous Robots",
+			"Intelligent Robotics"
+		],
+		"way2place": [
+			"Computer Science",
+			"Robotics"
+		]
+	},
+	{
+		"title": "Industrial Robotics",
+		"introduction": "Industrial Robotics focuses on designing and deploying robots used in factories and production lines. These robots perform tasks such as welding, assembly, packaging, and material handling with high precision and speed. Industrial robots improve efficiency, safety, and consistency in manufacturing environments.\n\nThis field suits individuals who enjoy mechanical systems, automation, and optimizing industrial workflows. People who are detail‑oriented and comfortable with engineering tools excel in industrial robotics.\n\nIn Iran, industrial robotics is widely used in automotive manufacturing, electronics assembly, and industrial automation. Internationally, it is a major component of Industry 4.0, offering opportunities in global manufacturing companies.\n\nStudying industrial robotics involves learning control systems, mechanical design, PLC programming, and industrial automation technologies.",
+		"shortIntroduction": "Industrial Robotics develops robots used in manufacturing, automation, and high‑precision industrial tasks.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Robotics",
+			"Industrial Robotics"
+		]
+	},
+	{
+		"title": "Autonomous Robots",
+		"introduction": "Autonomous Robots are machines capable of performing tasks without human intervention by using sensors, perception systems, and intelligent algorithms. They navigate environments, make decisions, and adapt to changing conditions, enabling applications such as self‑driving vehicles, drones, and service robots.\n\nThis field suits individuals who enjoy AI, control systems, and working with dynamic, real‑world environments. People who are analytical, creative, and comfortable with experimentation excel in autonomous robotics.\n\nIn Iran, autonomous robots are emerging in research labs, drone development, and industrial automation. Internationally, they are central to robotics innovation in transportation, logistics, and smart systems.\n\nStudying autonomous robots involves learning perception, motion planning, control theory, and embedded programming.",
+		"shortIntroduction": "Autonomous Robots operate independently using sensors, AI, and decision‑making algorithms.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Robotics",
+			"Autonomous Robots"
+		]
+	},
+	{
+		"title": "Intelligent Robotics",
+		"introduction": "Intelligent Robotics combines artificial intelligence with robotics to create machines that can learn, reason, and adapt to their environment. These robots use machine learning, computer vision, and decision‑making algorithms to perform complex tasks that require autonomy and intelligence.\n\nThis field suits individuals who enjoy AI, robotics, and solving high‑level challenges involving perception and reasoning. People who are analytical, curious, and comfortable with advanced algorithms excel in intelligent robotics.\n\nIn Iran, intelligent robotics is growing in academic research and AI‑driven automation. Internationally, it is a rapidly expanding field in autonomous vehicles, service robots, and advanced manufacturing.\n\nStudying intelligent robotics involves learning machine learning, computer vision, motion planning, and robot control.",
+		"shortIntroduction": "Intelligent Robotics integrates AI with robotics to create machines capable of learning, reasoning, and adaptive behavior.",
+		"subfields": [
+			"AI Integration",
+			"Motion & Path Planning"
+		],
+		"way2place": [
+			"Computer Science",
+			"Robotics",
+			"Intelligent Robotics"
+		]
+	},
+	{
+		"title": "AI Integration",
+		"introduction": "AI Integration focuses on embedding artificial intelligence into robotic systems to improve perception, decision‑making, and adaptability. It enables robots to understand their environment, learn from data, and perform tasks more intelligently.\n\nThis field suits individuals who enjoy combining AI algorithms with real‑world robotics applications. People who are analytical, innovative, and comfortable with machine learning and programming excel in AI integration.\n\nIn Iran, AI integration is used in research labs and emerging robotics startups. Internationally, it is essential in autonomous vehicles, drones, and intelligent service robots.\n\nStudying AI integration involves learning machine learning, computer vision, reinforcement learning, and embedded AI systems.",
+		"shortIntroduction": "AI Integration applies artificial intelligence techniques to enhance robotic perception, decision‑making, and autonomy.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Robotics",
+			"Intelligent Robotics",
+			"AI Integration"
+		]
+	},
+	{
+		"title": "Motion & Path Planning",
+		"introduction": "Motion & Path Planning focuses on calculating safe, efficient, and feasible paths for robots to navigate through their environment. It ensures robots can avoid obstacles, reach targets, and operate smoothly in dynamic settings.\n\nThis field suits individuals who enjoy algorithms, geometry, and solving spatial problems. People who are analytical and comfortable with mathematics and simulation tools excel in motion planning.\n\nIn Iran, motion planning is used in robotics research and drone development. Internationally, it is essential in autonomous vehicles, warehouse robots, and service robotics.\n\nStudying motion planning involves learning graph algorithms, optimization, kinematics, and tools like ROS and simulation environments.",
+		"shortIntroduction": "Motion & Path Planning determines safe and efficient routes for robots to move through their environment.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Robotics",
+			"Intelligent Robotics",
+			"Motion & Path Planning"
+		]
+	},
+	{
+		"title": "Quantum Computing",
+		"introduction": "Quantum Computing is an advanced field that uses the principles of quantum mechanics—such as superposition and entanglement—to perform computations that classical computers cannot handle efficiently. Quantum computers have the potential to revolutionize fields like cryptography, optimization, and scientific simulation.\n\nThis field suits individuals who enjoy theoretical thinking, mathematics, and exploring cutting‑edge technology. People who are analytical, curious, and comfortable with physics and algorithms excel in quantum computing.\n\nIn Iran, quantum computing is mostly explored in academic research and physics departments. Internationally, it is rapidly growing in tech companies, research labs, and government-funded programs.\n\nStudying quantum computing involves learning quantum mechanics, linear algebra, quantum algorithms, and programming frameworks like Qiskit or Cirq.",
+		"shortIntroduction": "Quantum Computing uses quantum mechanics to perform computations far beyond the capabilities of classical computers.",
+		"subfields": [
+			"Quantum Algorithms",
+			"Quantum Cryptography"
+		],
+		"way2place": [
+			"Computer Science",
+			"Quantum Computing"
+		]
+	},
+	{
+		"title": "Quantum Algorithms",
+		"introduction": "Quantum Algorithms are computational methods designed to run on quantum computers, using quantum properties to achieve speedups over classical algorithms. Famous examples include Shor’s algorithm for factoring and Grover’s algorithm for search.\n\nThis field suits individuals who enjoy algorithm design, mathematics, and theoretical computer science. People who are analytical and comfortable with abstract reasoning excel in quantum algorithm research.\n\nInternationally, quantum algorithm development is a major focus in research labs and tech companies working on quantum hardware.\n\nStudying quantum algorithms involves learning quantum gates, circuit models, complexity theory, and quantum programming languages.",
+		"shortIntroduction": "Quantum Algorithms leverage quantum principles to solve problems faster than classical algorithms.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Quantum Computing",
+			"Quantum Algorithms"
+		]
+	},
+	{
+		"title": "Quantum Cryptography",
+		"introduction": "Quantum Cryptography uses quantum mechanics to create secure communication systems that cannot be intercepted without detection. Techniques like Quantum Key Distribution (QKD) provide unprecedented levels of security by leveraging the behavior of quantum particles.\n\nThis field suits individuals who enjoy physics, cryptography, and exploring next‑generation security technologies. People who are analytical and comfortable with mathematical and physical concepts excel in quantum cryptography.\n\nInternationally, quantum cryptography is growing in government security, telecommunications, and advanced research institutions.\n\nStudying quantum cryptography involves learning quantum mechanics, encryption principles, QKD protocols, and optical communication systems.",
+		"shortIntroduction": "Quantum Cryptography secures communication using quantum principles that make eavesdropping detectable.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Quantum Computing",
+			"Quantum Cryptography"
+		]
+	},
+	{
+		"title": "Computer Graphics",
+		"introduction": "Computer Graphics is the field dedicated to generating and manipulating visual content using computational techniques. It includes 2D and 3D graphics, animation, rendering, and visual effects used in games, movies, simulations, and design tools. The field blends creativity with technical skill, enabling the creation of realistic or stylized digital visuals.\n\nThis field suits individuals who enjoy visual creativity, problem‑solving, and working with both artistic and technical tools. People who are detail‑oriented, imaginative, and comfortable with mathematics and programming excel in computer graphics.\n\nIn Iran, computer graphics is widely used in animation studios, game development, architecture visualization, and advertising. Internationally, it offers strong opportunities in film production, gaming, VR/AR, and simulation industries.\n\nStudying computer graphics typically involves learning 3D modeling, rendering algorithms, animation principles, and graphics programming using tools like Blender, Maya, Unity, Unreal Engine, and OpenGL.",
+		"shortIntroduction": "Computer Graphics focuses on creating, manipulating, and visualizing digital images and 3D content.",
+		"subfields": [
+			"3D Modeling",
+			"Animation",
+			"Rendering Techniques"
+		],
+		"way2place": [
+			"Computer Science",
+			"Computer Graphics"
+		]
+	},
+	{
+		"title": "3D Modeling",
+		"introduction": "3D Modeling focuses on creating digital three‑dimensional objects, characters, and environments used in games, movies, simulations, and product design. Artists use specialized software to sculpt, shape, and texture models that bring digital worlds to life.\n\nThis field suits individuals who enjoy creativity, visual design, and attention to detail. People who are artistic, patient, and comfortable learning complex software tools excel in 3D modeling.\n\nIn Iran, 3D modeling is used in animation studios, architecture visualization, and advertising. Internationally, it is essential in gaming, film production, VR/AR, and industrial design.\n\nStudying 3D modeling involves learning tools like Blender, Maya, ZBrush, and understanding topology, texturing, and digital sculpting.",
+		"shortIntroduction": "3D Modeling creates digital three‑dimensional objects for games, films, simulations, and design.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Computer Graphics",
+			"3D Modeling"
+		]
+	},
+	{
+		"title": "Animation",
+		"introduction": "Animation focuses on creating motion for digital characters, objects, and environments. It blends artistic expression with technical skill to produce lifelike or stylized movement used in films, games, advertisements, and simulations.\n\nThis field suits individuals who enjoy storytelling, creativity, and understanding how motion conveys emotion and personality. People who are patient, imaginative, and detail‑oriented excel in animation.\n\nIn Iran, animation is used in advertising, educational media, and film studios. Internationally, it is a major industry in entertainment, gaming, and digital content creation.\n\nStudying animation involves learning keyframe animation, rigging, motion capture, and tools like Blender, Maya, and Unity.",
+		"shortIntroduction": "Animation brings digital characters and objects to life through motion and storytelling.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Computer Graphics",
+			"Animation"
+		]
+	},
+	{
+		"title": "Rendering Techniques",
+		"introduction": "Rendering Techniques focus on converting 3D models and scenes into final images or animations using lighting, shading, and simulation algorithms. Rendering determines how realistic or stylized a digital scene appears, using methods like ray tracing, rasterization, and global illumination.\n\nThis field suits individuals who enjoy mathematics, physics, and optimizing visual quality. People who are analytical, detail‑oriented, and comfortable with algorithms excel in rendering.\n\nIn Iran, rendering is used in architecture visualization, animation, and product design. Internationally, it is essential in film production, gaming, and real‑time graphics.\n\nStudying rendering involves learning lighting models, shading languages, GPU programming, and tools like Blender Cycles, Arnold, and Unreal Engine.",
+		"shortIntroduction": "Rendering Techniques generate final images from 3D scenes using lighting, shading, and simulation algorithms.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Computer Graphics",
+			"Rendering Techniques"
+		]
+	},
+	{
+		"title": "Game Development",
+		"introduction": "Game Development focuses on creating interactive digital experiences through programming, design, storytelling, and real‑time graphics. Developers build gameplay mechanics, physics systems, AI behaviors, and immersive worlds that players can explore.\n\nThis field suits individuals who enjoy creativity, problem‑solving, and building interactive systems. People who are imaginative, analytical, and comfortable with programming and design tools excel in game development.\n\nIn Iran, game development is growing in indie studios and mobile game companies. Internationally, it is a massive industry with opportunities in AAA studios, indie teams, VR/AR, and simulation companies.\n\nStudying game development involves learning game engines, programming, physics, AI, and design principles using tools like Unity and Unreal Engine.",
+		"shortIntroduction": "Game Development creates interactive digital experiences using programming, design, and real‑time graphics.",
+		"subfields": [
+			"Game Engines",
+			"Gameplay Programming",
+			"Physics Simulation"
+		],
+		"way2place": [
+			"Computer Science",
+			"Game Development"
+		]
+	},
+	{
+		"title": "Game Engines",
+		"introduction": "Game Engines are software frameworks that provide the tools, physics systems, rendering pipelines, and scripting environments needed to build games. Engines like Unity and Unreal simplify development by offering ready‑made systems for graphics, audio, input, and gameplay logic.\n\nThis field suits individuals who enjoy system design, optimization, and building interactive tools. People who are analytical and comfortable with programming excel in engine development.\n\nInternationally, game engine expertise is valuable in gaming, simulation, VR/AR, and real‑time visualization industries.\n\nStudying game engines involves learning scripting, rendering, physics, and engine architecture.",
+		"shortIntroduction": "Game Engines provide the core tools and systems needed to build and run interactive games.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Game Development",
+			"Game Engines"
+		]
+	},
+	{
+		"title": "Gameplay Programming",
+		"introduction": "Gameplay Programming focuses on implementing the mechanics, interactions, and systems that define how a game feels and plays. Gameplay programmers create character controls, combat systems, puzzles, AI behaviors, and interactive elements.\n\nThis field suits individuals who enjoy creativity, problem‑solving, and designing player experiences. People who are analytical, imaginative, and comfortable with programming excel in gameplay development.\n\nIn Iran, gameplay programming is common in indie and mobile game studios. Internationally, it is a core role in AAA studios and game development companies.\n\nStudying gameplay programming involves learning scripting, physics, AI, and game design principles using engines like Unity and Unreal.",
+		"shortIntroduction": "Gameplay Programming implements the mechanics, interactions, and behaviors that define a game's experience.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Game Development",
+			"Gameplay Programming"
+		]
+	},
+	{
+		"title": "Physics Simulation",
+		"introduction": "Physics Simulation focuses on modeling realistic motion, forces, collisions, and interactions in digital environments. It enables believable movement for characters, objects, fluids, and particles in games and simulations.\n\nThis field suits individuals who enjoy mathematics, physics, and building realistic systems. People who are analytical and comfortable with algorithms excel in physics simulation.\n\nInternationally, physics simulation is essential in gaming, VR/AR, robotics simulation, and scientific visualization.\n\nStudying physics simulation involves learning mechanics, numerical methods, collision detection, and physics engines like Havok, PhysX, or Bullet.",
+		"shortIntroduction": "Physics Simulation models realistic motion, forces, and interactions in games and digital environments.",
+		"subfields": [],
+		"way2place": [
+			"Computer Science",
+			"Game Development",
+			"Physics Simulation"
+		]
+	}
+]
