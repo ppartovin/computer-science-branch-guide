@@ -9,48 +9,126 @@ const port = process.env.PORT || 3003;
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "veiw"));
 
+const SUPPORTED_LANGS = new Set(["en", "fa"]);
+
+const i18n = {
+  en: {
+    errors: {
+      generic: "something went wrong",
+      invalidSubmission: "invalid test submission"
+    },
+    labels: {
+      Analytical: "Analytical",
+      Data: "Data",
+      AI: "AI",
+      SoftwareDev: "Software Development",
+      Hardware: "Hardware",
+      Security: "Security",
+      Creative: "Creative"
+    }
+  },
+  fa: {
+    errors: {
+      generic: "مشکلی پیش آمد",
+      invalidSubmission: "ارسال پاسخ‌های آزمون نامعتبر است"
+    },
+    labels: {
+      Analytical: "تحلیلی",
+      Data: "داده",
+      AI: "هوش مصنوعی",
+      SoftwareDev: "توسعه نرم‌افزار",
+      Hardware: "سخت‌افزار",
+      Security: "امنیت",
+      Creative: "خلاقیت"
+    }
+  }
+};
+
+function resolveLang(rawLang) {
+  return SUPPORTED_LANGS.has(rawLang) ? rawLang : "en";
+}
+
+function appendLangToPath(pathname, query, lang) {
+  const params = new URLSearchParams();
+  if (query && typeof query === "object") {
+    for (const key of Object.keys(query)) {
+      if (key === "lang") {
+        continue;
+      }
+      const value = query[key];
+      if (Array.isArray(value)) {
+        for (const item of value) {
+          params.append(key, String(item));
+        }
+      } else if (value !== undefined && value !== null) {
+        params.append(key, String(value));
+      }
+    }
+  }
+  params.set("lang", lang);
+  const qs = params.toString();
+  return qs ? `${pathname}?${qs}` : pathname;
+}
+
+function setupLanguageLocals(req, res) {
+  const lang = resolveLang(req.query.lang);
+  res.locals.lang = lang;
+  res.locals.switchToFaUrl = appendLangToPath(req.path, req.query, "fa");
+  res.locals.switchToEnUrl = appendLangToPath(req.path, req.query, "en");
+  return lang;
+}
+
+function renderByLang(res, lang, baseView, locals = {}) {
+  const viewName = lang === "fa" ? `${baseView}_fa` : baseView;
+  res.render(viewName, locals);
+}
+
 app.get("/", (req, res) => {
-  res.render("index");
+  const lang = setupLanguageLocals(req, res);
+  renderByLang(res, lang, "index");
 });
 
 app.get("/majors", async (req, res) => {
+  const lang = setupLanguageLocals(req, res);
   try {
-    const title = req.query.place || "Computer Science";
-    const fieldData = await filesWork.getFieldInfo(title);
+    const title = req.query.place || (lang === "fa" ? "علوم کامپیوتر" : "Computer Science");
+    const fieldData = await filesWork.getFieldInfo(title, lang);
 
     if (fieldData.success === false) {
-      return res.status(404).render("majors_error.ejs", {
+      return res.status(404).render(lang === "fa" ? "majors_error_fa.ejs" : "majors_error.ejs", {
         title
       });
     }
 
-    res.render("majors", { field: fieldData });
+    renderByLang(res, lang, "majors", { field: fieldData });
   } catch (err) {
     console.error("Majors route error:", err);
-    res.status(500).render("majors_error.ejs", {
-      title: req.query.place || "Computer Science"
+    res.status(500).render(lang === "fa" ? "majors_error_fa.ejs" : "majors_error.ejs", {
+      title: req.query.place || (lang === "fa" ? "علوم کامپیوتر" : "Computer Science")
     });
   }
 });
 
 app.get("/test", async (req, res) => {
+  const lang = setupLanguageLocals(req, res);
   try {
     const testData = await filesWork.readTestData();
-    res.render("test", { test: testData });
+    renderByLang(res, lang, "test", { test: testData });
   } catch (err) {
     console.error("Test page load error:", err);
-    res.status(500).render("test_error", {
-      message: "something went wrong"
+    res.status(500).render(lang === "fa" ? "test_error_fa" : "test_error", {
+      message: i18n[lang].errors.generic
     });
   }
 });
 
 app.post("/test", async (req, res) => {
+  const lang = setupLanguageLocals(req, res);
   try {
     const { answers } = req.body;
     if (!Array.isArray(answers) || answers.length === 0) {
-      return res.status(400).render("test_error", {
-        message: "invalid test submission"
+      return res.status(400).render(lang === "fa" ? "test_error_fa" : "test_error", {
+        message: i18n[lang].errors.invalidSubmission
       });
     }
 
@@ -95,17 +173,19 @@ app.post("/test", async (req, res) => {
     for (const key of Object.keys(scores)) {
       query.append(key, scores[key].toString());
     }
+    query.append("lang", lang);
 
     res.redirect(`/test_ans?${query.toString()}`);
   } catch (err) {
     console.error("Test processing error:", err);
-    res.render("test_error", {
-      message: "something went wrong"
+    res.render(lang === "fa" ? "test_error_fa" : "test_error", {
+      message: i18n[lang].errors.generic
     });
   }
 });
 
 app.get("/test_ans", async (req, res) => {
+  const lang = setupLanguageLocals(req, res);
   try {
     const keys = ["Analytical", "Data", "AI", "SoftwareDev", "Hardware", "Security", "Creative"];
     const scores = {};
@@ -126,21 +206,25 @@ app.get("/test_ans", async (req, res) => {
 
     const progressItems = [];
     for (const key of Object.keys(scores)) {
-      progressItems.push({ "label": key, "value": scores[key] });
+      progressItems.push({ "label": i18n[lang].labels[key] || key, "value": scores[key] });
     }
 
-    const suggestedMajors = await filesWork.getDescriptions(suggestedMajorTitles);
+    const suggestedMajors = await filesWork.getDescriptions(suggestedMajorTitles, lang);
 
-    res.render("test_ans", { progressItems, suggestedMajors });
+    renderByLang(res, lang, "test_ans", { progressItems, suggestedMajors });
   } catch (err) {
     console.error("Test result processing error:", err);
-    res.render("test_error", {
-      message: "something went wrong"
+    res.render(lang === "fa" ? "test_error_fa" : "test_error", {
+      message: i18n[lang].errors.generic
     });
   }
 });
 
 app.use((req, res) => {
+  const lang = resolveLang(req.query.lang);
+  if (lang === "fa") {
+    return res.redirect("/?lang=fa");
+  }
   res.redirect("/");
 });
 

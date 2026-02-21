@@ -2,8 +2,13 @@ const path = require("path");
 const fs = require("fs").promises;
 
 const subfieldDataPath = path.join(__dirname, "datas", "subfield_datas.json");
+const persianSubfieldDataPath = path.join(__dirname, "datas", "persian_subfield_datas.json");
 const testDataPath = path.join(__dirname, "datas", "test_datas.json");
 const majorsScoresPath = path.join(__dirname, "datas", "majors_scores.json");
+
+function getSubfieldDataPath(lang = "en") {
+  return lang === "fa" ? persianSubfieldDataPath : subfieldDataPath;
+}
 
 /**
  * Loads a major by title and builds view-friendly data for `majors.ejs`.
@@ -18,9 +23,9 @@ const majorsScoresPath = path.join(__dirname, "datas", "majors_scores.json");
  *   error?: string
  * }>}
  */
-async function getFieldInfo(mainTitle) {
+async function getFieldInfo(mainTitle, lang = "en") {
   try {
-    const rawSubfieldData = await fs.readFile(subfieldDataPath, "utf8");
+    const rawSubfieldData = await fs.readFile(getSubfieldDataPath(lang), "utf8");
     const parsedSubfieldData = JSON.parse(rawSubfieldData);
 
     const mainItem = parsedSubfieldData.find((item) => item.title === mainTitle);
@@ -49,7 +54,7 @@ async function getFieldInfo(mainTitle) {
         } else {
           subfieldsResult.push({
             title: subTitle,
-            shortIntroduction: "(No information found)"
+            shortIntroduction: lang === "fa" ? "(اطلاعاتی یافت نشد)" : "(No information found)"
           });
         }
       }
@@ -112,16 +117,28 @@ async function recommendMajors(userScores) {
  * @param {string[]} titles
  * @returns {Promise<Array<{title: string, description: string}>>}
  */
-const getDescriptions = async (titles) => {
-  const subfieldData = JSON.parse(await fs.readFile(subfieldDataPath));
+const getDescriptions = async (titles, lang = "en") => {
+  const targetSubfieldData = JSON.parse(await fs.readFile(getSubfieldDataPath(lang), "utf8"));
+  const englishSubfieldData = lang === "fa"
+    ? JSON.parse(await fs.readFile(subfieldDataPath, "utf8"))
+    : null;
 
   const descriptions = [];
   for (const title of titles) {
-    for (const subfieldItem of subfieldData) {
-      if (subfieldItem.title === title) {
-        descriptions.push({ "title": subfieldItem.title, "description": subfieldItem.introduction });
-        break;
+    let matchedItem = targetSubfieldData.find((subfieldItem) => subfieldItem.title === title);
+
+    if (!matchedItem && englishSubfieldData) {
+      const englishIndex = englishSubfieldData.findIndex((subfieldItem) => subfieldItem.title === title);
+      if (englishIndex !== -1 && englishIndex < targetSubfieldData.length) {
+        matchedItem = targetSubfieldData[englishIndex];
       }
+    }
+
+    if (matchedItem) {
+      descriptions.push({
+        "title": matchedItem.title,
+        "description": matchedItem.shortIntroduction || ""
+      });
     }
   }
 

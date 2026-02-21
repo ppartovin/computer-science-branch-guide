@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Welcome</title>
+  <title>رشته پیدا نشد</title>
   <style>
     :root {
       --bg: #f6f2ea;
@@ -13,6 +13,7 @@
       --accent: #ff8f2f;
       --accent-2: #2f6cff;
       --shadow: rgba(20, 18, 14, 0.12);
+      --line: rgba(29, 27, 22, 0.08);
     }
 
     * {
@@ -21,7 +22,7 @@
 
     body {
       margin: 0;
-      font-family: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+      font-family: "Vazirmatn", "Segoe UI", system-ui, sans-serif;
       color: var(--ink);
       background:
         radial-gradient(1200px 600px at 80% -10%, #ffe0c2 0%, transparent 60%),
@@ -35,12 +36,12 @@
     }
 
     .wrap {
-      width: min(920px, 100%);
+      width: min(820px, 100%);
       background: var(--card);
       border-radius: 24px;
       padding: 40px 36px;
       box-shadow: 0 20px 60px var(--shadow);
-      border: 1px solid rgba(29, 27, 22, 0.08);
+      border: 1px solid var(--line);
     }
 
     header {
@@ -71,67 +72,48 @@
     }
 
     h1 {
-      font-size: clamp(28px, 4vw, 38px);
-      margin: 12px 0 8px;
+      font-size: clamp(26px, 3.6vw, 36px);
+      margin: 0 0 10px;
     }
 
     p {
       margin: 0;
       color: var(--muted);
+      line-height: 1.8;
       font-size: 16px;
-      line-height: 1.7;
     }
 
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 18px;
-      margin-top: 28px;
-    }
-
-    .card {
-      text-decoration: none;
-      color: inherit;
+    .panel {
       background: #fff;
-      border-radius: 18px;
-      padding: 22px 20px;
-      border: 1px solid rgba(29, 27, 22, 0.08);
-      box-shadow: 0 12px 28px rgba(20, 18, 14, 0.08);
-      transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+      border-radius: 16px;
+      padding: 20px;
+      border: 1px solid var(--line);
       display: grid;
       gap: 10px;
+      margin: 20px 0 24px;
     }
 
-    .card:hover,
-    .card:focus-visible {
-      transform: translateY(-4px);
-      box-shadow: 0 16px 40px rgba(20, 18, 14, 0.14);
-      border-color: rgba(29, 27, 22, 0.18);
-    }
-
-    .card .tag {
-      font-size: 12px;
+    .major {
       font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: var(--muted);
+      color: var(--ink);
+      word-break: break-word;
     }
 
-    .card h2 {
-      margin: 0;
-      font-size: 20px;
+    .actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
     }
 
-    .card p {
-      font-size: 14px;
-    }
-
-    .card.action-test {
-      border-top: 4px solid var(--accent);
-    }
-
-    .card.action-majors {
-      border-top: 4px solid var(--accent-2);
+    a.button {
+      text-decoration: none;
+      color: #fff;
+      background: linear-gradient(135deg, var(--accent-2), #6aa0ff);
+      padding: 12px 20px;
+      border-radius: 12px;
+      font-size: 15px;
+      box-shadow: 0 12px 24px rgba(47, 108, 255, 0.25);
+      display: inline-block;
     }
   </style>
 </head>
@@ -145,21 +127,15 @@
       <%- include("partials/language_switcher") %>
     </header>
 
-    <h1>Welcome</h1>
-    <p>Would you like to take a test or explore the available majors?</p>
+    <h1>رشته پیدا نشد</h1>
+    <div class="panel">
+      <p>رشته‌ای که درخواست کردید پیدا نشد:</p>
+      <p class="major"><%= title %></p>
+    </div>
 
-    <section class="cards">
-      <a class="card action-test" href="/test?lang=<%= lang %>">
-        <span class="tag">Option 1</span>
-        <h2>Take a Test</h2>
-        <p>Answer a few questions and get a tailored suggestion.</p>
-      </a>
-      <a class="card action-majors" href="/majors?lang=<%= lang %>">
-        <span class="tag">Option 2</span>
-        <h2>See Majors</h2>
-        <p>Browse the list of majors and learn more about each.</p>
-      </a>
-    </section>
+    <div class="actions">
+      <a class="button" href="/?lang=<%= lang %>">بازگشت به خانه</a>
+    </div>
   </main>
 </body>
 </html>

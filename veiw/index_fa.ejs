@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Welcome</title>
+  <title>خوش آمدید</title>
   <style>
     :root {
       --bg: #f6f2ea;
@@ -21,7 +21,7 @@
 
     body {
       margin: 0;
-      font-family: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+      font-family: "Vazirmatn", "Segoe UI", system-ui, sans-serif;
       color: var(--ink);
       background:
         radial-gradient(1200px 600px at 80% -10%, #ffe0c2 0%, transparent 60%),
@@ -79,7 +79,7 @@
       margin: 0;
       color: var(--muted);
       font-size: 16px;
-      line-height: 1.7;
+      line-height: 1.9;
     }
 
     .cards {
@@ -112,7 +112,6 @@
     .card .tag {
       font-size: 12px;
       font-weight: 700;
-      text-transform: uppercase;
       letter-spacing: 1px;
       color: var(--muted);
     }
@@ -145,19 +144,19 @@
       <%- include("partials/language_switcher") %>
     </header>
 
-    <h1>Welcome</h1>
-    <p>Would you like to take a test or explore the available majors?</p>
+    <h1>خوش آمدید</h1>
+    <p>می‌خواهید آزمون بدهید یا رشته‌های موجود را بررسی کنید؟</p>
 
     <section class="cards">
       <a class="card action-test" href="/test?lang=<%= lang %>">
-        <span class="tag">Option 1</span>
-        <h2>Take a Test</h2>
-        <p>Answer a few questions and get a tailored suggestion.</p>
+        <span class="tag">گزینه ۱</span>
+        <h2>شروع آزمون</h2>
+        <p>به چند سوال پاسخ بدهید و پیشنهاد مناسب دریافت کنید.</p>
       </a>
       <a class="card action-majors" href="/majors?lang=<%= lang %>">
-        <span class="tag">Option 2</span>
-        <h2>See Majors</h2>
-        <p>Browse the list of majors and learn more about each.</p>
+        <span class="tag">گزینه ۲</span>
+        <h2>مشاهده رشته‌ها</h2>
+        <p>لیست رشته‌ها را ببینید و درباره هرکدام بیشتر بخوانید.</p>
       </a>
     </section>
   </main>

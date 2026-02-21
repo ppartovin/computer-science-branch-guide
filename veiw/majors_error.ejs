@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fa">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -124,7 +124,7 @@
         <div class="brand-badge">BG</div>
         <div>BranchGuide</div>
       </div>
-      <div>Majors</div>
+      <%- include("partials/language_switcher") %>
     </header>
 
     <h1>Major Not Found</h1>
@@ -134,7 +134,7 @@
     </div>
 
     <div class="actions">
-      <a class="button" href="/">Back to Home</a>
+      <a class="button" href="/?lang=<%= lang %>">Back to Home</a>
     </div>
   </main>
 </body>

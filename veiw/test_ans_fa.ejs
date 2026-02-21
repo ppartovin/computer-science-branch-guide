@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Test Submitted</title>
+  <title>نتیجه آزمون</title>
   <style>
     :root {
       --bg: #f6f2ea;
@@ -22,7 +22,7 @@
 
     body {
       margin: 0;
-      font-family: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+      font-family: "Vazirmatn", "Segoe UI", system-ui, sans-serif;
       color: var(--ink);
       background:
         radial-gradient(1200px 600px at 80% -10%, #ffe0c2 0%, transparent 60%),
@@ -79,7 +79,7 @@
     p {
       margin: 0;
       color: var(--muted);
-      line-height: 1.7;
+      line-height: 1.8;
       font-size: 16px;
     }
 
@@ -171,6 +171,7 @@
       border: 1px solid var(--line);
       box-shadow: 0 10px 20px rgba(20, 18, 14, 0.06);
       gap: 8px;
+      cursor: pointer;
     }
 
     .card h3 {
@@ -180,7 +181,6 @@
 
     .tag {
       font-size: 12px;
-      text-transform: uppercase;
       letter-spacing: 1px;
       color: var(--muted);
       font-weight: 700;
@@ -201,7 +201,7 @@
       font-size: 15px;
       box-shadow: 0 12px 24px rgba(47, 108, 255, 0.25);
       display: inline-block;
-      margin-top:16px;
+      margin-top: 16px;
     }
   </style>
   <script>
@@ -224,16 +224,16 @@
       <%- include("partials/language_switcher") %>
     </header>
 
-    <h1>Test Submitted</h1>
+    <h1>نتیجه آزمون ثبت شد</h1>
     <section class="note">
-      <span class="tag">Test Result</span>
-      <p>you can review your results in <span class="email-pill" id="url_shower"></span></p>
+      <span class="tag">نتیجه آزمون</span>
+      <p>می‌توانید نتایج خود را در این آدرس بررسی کنید: <span class="email-pill" id="url_shower"></span></p>
     </section>
 
     <section>
       <div class="section-head">
-        <h2>Test Results</h2>
-        <p>Based on your answers, the fit for each area is as follows.</p>
+        <h2>نتایج آزمون</h2>
+        <p>بر اساس پاسخ‌های شما، میزان تناسب هر حوزه به شکل زیر است.</p>
       </div>
       <div class="progress-list">
         <% progressItems.forEach(function(item) { %>
@@ -252,14 +252,14 @@
 
     <section style="margin-top: 28px;">
       <div class="section-head">
-        <h2>Suggested Majors</h2>
-        <p>These majors could be a strong path for your studies.</p>
+        <h2>رشته‌های پیشنهادی</h2>
+        <p>این رشته‌ها می‌توانند مسیر مناسبی برای ادامه تحصیل شما باشند.</p>
       </div>
       <div class="cards">
         <% suggestedMajors.forEach(function(major) { %>
           <article class="card" onclick='window.location.href = "/majors?place=" + encodeURIComponent(<%- JSON.stringify(major.title) %>) + "&lang=<%= lang %>";'>
-            <span class="tag">Suggested</span>
-            <h3 style="margin-top: 20px;margin-bottom: 20px;"><%= major.title %></h3>
+            <span class="tag">پیشنهادی</span>
+            <h3 style="margin-top: 20px; margin-bottom: 20px;"><%= major.title %></h3>
             <p><%= major.description %></p>
           </article>
         <% }); %>
@@ -267,7 +267,7 @@
     </section>
 
     <div class="actions">
-      <a class="button" href="/?lang=<%= lang %>">Back to Home</a>
+      <a class="button" href="/?lang=<%= lang %>">بازگشت به خانه</a>
     </div>
   </main>
 </body>

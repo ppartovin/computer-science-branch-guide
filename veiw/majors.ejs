@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fa">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -133,8 +133,14 @@
         <div class="brand-badge">BG</div>
         <div>BranchGuide</div>
       </div>
-      <div onclick="window.location.href = '/majors?place=' + encodeURIComponent('<%= field.top_subfield %>');">go top subfield</div>
+      <%- include("partials/language_switcher") %>
     </header>
+
+    <% if (field.topSubfield) { %>
+      <div style="margin-bottom: 14px;">
+        <a style="text-decoration: none; color: #2f6cff; font-weight: 700;" href="/majors?place=<%= encodeURIComponent(field.topSubfield) %>&lang=<%= lang %>">Go to top subfield</a>
+      </div>
+    <% } %>
 
     <h1><%= field.title %></h1>
     <section class="intro">
@@ -144,7 +150,7 @@
 
     <section class="cards">
       <% for(let i=0;i<field.subfields.length;i++){ %>
-        <article class="card" onclick="window.location.href = '/majors?place=' + encodeURIComponent('<%= field.subfields[i].title %>');">
+        <article class="card" onclick='window.location.href = "/majors?place=" + encodeURIComponent(<%- JSON.stringify(field.subfields[i].title) %>) + "&lang=<%= lang %>";'>
           <span class="tag">Subfield</span>
           <h2><%= field.subfields[i].title %></h2>
           <p><%= field.subfields[i].shortIntroduction %></p>

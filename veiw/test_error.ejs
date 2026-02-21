@@ -123,6 +123,7 @@
         <div class="brand-badge">BG</div>
         <div>BranchGuide</div>
       </div>
+      <%- include("partials/language_switcher") %>
     </header>
 
     <h1>We hit a snag</h1>
@@ -131,8 +132,8 @@
     </div>
 
     <div class="actions">
-      <a class="button" href="/test">Try Again</a>
-      <a class="button secondary" href="/">Back to Home</a>
+      <a class="button" href="/test?lang=<%= lang %>">Try Again</a>
+      <a class="button secondary" href="/?lang=<%= lang %>">Back to Home</a>
     </div>
   </main>
 </body>

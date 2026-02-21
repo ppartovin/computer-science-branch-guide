@@ -1,0 +1,35 @@
+<style>
+  .lang-switch {
+    display: inline-flex;
+    gap: 8px;
+    padding: 6px;
+    border-radius: 14px;
+    background: #fff;
+    border: 1px solid rgba(29, 27, 22, 0.12);
+    box-shadow: 0 8px 20px rgba(20, 18, 14, 0.08);
+  }
+
+  .lang-link {
+    text-decoration: none;
+    color: #3f3a31;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 7px 12px;
+    border-radius: 10px;
+    line-height: 1;
+    transition: background-color 160ms ease, color 160ms ease;
+  }
+
+  .lang-link:hover {
+    background: rgba(47, 108, 255, 0.08);
+  }
+
+  .lang-link.active {
+    color: #fff;
+    background: linear-gradient(135deg, #2f6cff, #6aa0ff);
+  }
+</style>
+<nav class="lang-switch" aria-label="Language switcher">
+  <a class="lang-link <%= lang === 'fa' ? 'active' : '' %>" href="<%= switchToFaUrl %>">فارسی</a>
+  <a class="lang-link <%= lang === 'en' ? 'active' : '' %>" href="<%= switchToEnUrl %>">English</a>
+</nav>
